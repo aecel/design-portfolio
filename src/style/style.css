@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --gray: #2a2a2a;
+  --dark-gray: #1e1e1e;
+  --screen-margin: 30px;
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--gray);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body,
+#root,
+.App {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  background-color: var(--dark-gray);
+  height: 30px;
+  width: 100%;
+  padding: 20px var(--screen-margin) 20px var(--screen-margin);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 50px var(--screen-margin) 50px var(--screen-margin);
+  height: 100%;
+}
