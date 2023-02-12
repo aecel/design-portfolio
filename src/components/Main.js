@@ -1,7 +1,7 @@
 const Main = () => {
   return (
     <main>
-      <div>Hello world it me ace</div>
+      <div></div>
     </main>
   )
 }
