@@ -1,7 +1,9 @@
 const Main = () => {
   return (
     <main>
-      <div></div>
+      <div
+        style={{ backgroundColor: "gray", height: "400px", width: "100%" }}
+      ></div>
     </main>
   )
 }

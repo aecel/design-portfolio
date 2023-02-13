@@ -4,7 +4,7 @@
   font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --gray: #2a2a2a;
   --dark-gray: #1e1e1e;
-  --screen-margin: 30px;
+  --screen-margin: 200px;
   color: white;
   font-size: 1rem;
   box-sizing: border-box;
@@ -41,4 +41,34 @@ footer {
 main {
   margin: 50px var(--screen-margin) 50px var(--screen-margin);
   height: 100%;
+}
+
+@media (max-width: 1500px) {
+  :root {
+    --screen-margin: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --screen-margin: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --screen-margin: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  :root {
+    --screen-margin: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  :root {
+    --screen-margin: 10px;
+  }
 }
