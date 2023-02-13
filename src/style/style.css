@@ -5,6 +5,8 @@
   --gray: #2a2a2a;
   --dark-gray: #1e1e1e;
   --screen-margin: 200px;
+  --default-padding: 20px;
+  --default-gap: 50px;
   color: white;
   font-size: 1rem;
   box-sizing: border-box;
@@ -41,6 +43,17 @@ footer {
 main {
   margin: 50px var(--screen-margin) 50px var(--screen-margin);
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--default-gap);
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--default-gap);
 }
 
 @media (max-width: 1500px) {
