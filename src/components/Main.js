@@ -1,10 +1,12 @@
 import Introduction from "./Introduction"
+import PresentationSlides from "./PresentationSlides"
 
 const Main = () => {
   return (
     <main>
       <Introduction />
-      <div>yyyy</div>
+      <PresentationSlides />
+      <div>sssss</div>
     </main>
   )
 }

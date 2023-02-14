@@ -40,6 +40,8 @@ footer {
   box-sizing: border-box;
 }
 
+/* Main component */
+
 main {
   margin: 50px var(--screen-margin) 50px var(--screen-margin);
   height: 100%;
@@ -56,6 +58,24 @@ main {
   gap: var(--default-gap);
 }
 
+.default-margin {
+  margin-left: var(--screen-margin);
+  margin-right: var(--screen-margin);
+}
+
+/* PresentationSlides component */
+
+#PresentationSlides {
+  flex-direction: row;
+}
+
+.slide-image {
+  height: 300px;
+  width: auto;
+}
+
+/* Media Queries */
+
 @media (max-width: 1500px) {
   :root {
     --screen-margin: 100px;
@@ -66,11 +86,21 @@ main {
   :root {
     --screen-margin: 50px;
   }
+
+  #PresentationSlides {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 700px) {
   :root {
     --screen-margin: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .slide-image {
+    height: 200px;
   }
 }
 
@@ -83,5 +113,9 @@ main {
 @media (max-width: 350px) {
   :root {
     --screen-margin: 10px;
+  }
+
+  .slide-image {
+    height: 150px;
   }
 }
