@@ -43,8 +43,8 @@ footer {
 /* Main component */
 
 main {
-  margin: 50px var(--screen-margin) 50px var(--screen-margin);
-  height: 100%;
+  /* margin: 50px 0px 50px 0px; */
+  /* min-height: 100%; */
   display: flex;
   flex-direction: column;
   gap: var(--default-gap);
@@ -58,9 +58,21 @@ main {
   gap: var(--default-gap);
 }
 
+.main-with-margin {
+  margin: 50px var(--screen-margin) 50px var(--screen-margin);
+}
+
 .default-margin {
   margin-left: var(--screen-margin);
   margin-right: var(--screen-margin);
+}
+
+/* Introduction component */
+
+#Introduction {
+  background-color: var(--dark-gray);
+  padding: var(--default-padding);
+  height: 500px;
 }
 
 /* PresentationSlides component */

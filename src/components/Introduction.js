@@ -1,7 +1,8 @@
 const Introduction = () => {
   return (
     <div id="Introduction" className="flex-center">
-      Hello I'm Ace
+      <div>Hello I'm Ace</div>
+      <div>A Graphic Designer</div>
     </div>
   )
 }

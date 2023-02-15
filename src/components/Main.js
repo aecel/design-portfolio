@@ -5,8 +5,10 @@ const Main = () => {
   return (
     <main>
       <Introduction />
-      <PresentationSlides />
-      <div>sssss</div>
+      <div className="main-with-margin">
+        <PresentationSlides />
+        <div>sssss</div>
+      </div>
     </main>
   )
 }
