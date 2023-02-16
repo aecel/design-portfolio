@@ -5,9 +5,14 @@ const Main = () => {
   return (
     <main>
       <Introduction />
-      <div className="main-with-margin">
+      <div className="main-with-margin flex-center">
         <PresentationSlides />
-        <div>sssss</div>
+        <div
+          className="flex-center"
+          style={{ backgroundColor: "gray", width: "100%" }}
+        >
+          xxx
+        </div>
       </div>
     </main>
   )

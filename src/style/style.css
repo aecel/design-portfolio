@@ -40,6 +40,11 @@ footer {
   box-sizing: border-box;
 }
 
+header {
+  justify-content: space-between;
+  gap: 20px;
+}
+
 /* Main component */
 
 main {
@@ -71,7 +76,7 @@ main {
 
 #Introduction {
   background-color: var(--dark-gray);
-  padding: var(--default-padding);
+  padding: 50px var(--screen-margin) 50px var(--screen-margin);
   height: 500px;
 }
 
@@ -79,6 +84,8 @@ main {
 
 #PresentationSlides {
   flex-direction: row;
+  /* gap: unset; */
+  justify-content: space-between;
 }
 
 .slide-image {
@@ -101,6 +108,7 @@ main {
 
   #PresentationSlides {
     flex-direction: column;
+    gap: var(--default-gap);
   }
 }
 
