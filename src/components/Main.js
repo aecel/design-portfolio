@@ -1,8 +1,11 @@
+import getPresentationImages from "../getPresentationImages"
 import ContactMe from "./ContactMe"
 import Introduction from "./Introduction"
 import PresentationSlides from "./PresentationSlides"
 
 const Main = () => {
+  const slideImages = getPresentationImages()
+
   return (
     <main>
       <Introduction />
