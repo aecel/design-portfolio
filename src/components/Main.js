@@ -14,7 +14,7 @@ const Main = () => {
         <PresentationSlides />
         <div
           className="flex-center"
-          style={{ backgroundColor: "gray", width: "100%", height: "500px" }}
+          style={{ backgroundColor: "#1e1e1e", width: "100%", height: "500px" }}
         >
           xxx
         </div>

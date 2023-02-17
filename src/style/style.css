@@ -85,6 +85,7 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  width: 120px;
 }
 
 button:hover {
@@ -120,6 +121,7 @@ button:active {
 .slide-image {
   height: 300px;
   width: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
 }
 
 /* ContactMe component */
@@ -127,7 +129,26 @@ button:active {
 #ContactMe {
   background-color: var(--dark-gray);
   padding: 50px var(--screen-margin) 50px var(--screen-margin);
-  height: 500px;
+  /* height: 500px; */
+}
+
+#HireMeButton {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+}
+
+#HireMeButton:hover {
+  background-color: lightgreen;
+}
+
+#HireMeButton:active {
+  background-color: green;
 }
 
 /* Media Queries */

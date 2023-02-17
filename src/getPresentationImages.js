@@ -6,46 +6,19 @@ const getPresentationImages = () => {
     return r.keys().map(r)
   }
 
-  const pptInput1 = importAll(
-    require.context(
-      "./images/slides/auth-ppt-input-1",
-      false,
-      /\.(PNG|png|jpe?g|svg)$/
-    )
+  const before1 = importAll(
+    require.context("./images/slides/before1", false, /\.(PNG|png|jpe?g|svg)$/)
   )
 
-  const pptOutput1 = importAll(
-    require.context(
-      "./images/slides/auth-ppt-output-1",
-      false,
-      /\.(PNG|png|jpe?g|svg)$/
-    )
-  )
-
-  const pptInput2 = importAll(
-    require.context(
-      "./images/slides/auth-ppt-input-2",
-      false,
-      /\.(PNG|png|jpe?g|svg)$/
-    )
-  )
-
-  const pptOutput2 = importAll(
-    require.context(
-      "./images/slides/auth-ppt-output-2",
-      false,
-      /\.(PNG|png|jpe?g|svg)$/
-    )
+  const after1 = importAll(
+    require.context("./images/slides/after1", false, /\.(PNG|png|jpe?g|svg)$/)
   )
 
   presentationImages = {
-    input1: pptInput1,
-    input2: pptInput2,
-    output1: pptOutput1,
-    output2: pptOutput2,
+    before1: before1,
+    after1: after1,
   }
 
-  console.log(presentationImages)
   return presentationImages
 }
 
