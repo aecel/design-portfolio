@@ -28,7 +28,7 @@ const IllustrationSlideshow = ({ title, illustrationImages }) => {
       <div className="before-after-slides flex-center">
         <div className="flex-center">
           <img
-            className="slide-image"
+            className="illustration-image"
             alt=""
             src={illustrationImages[imageIndex]}
           />

@@ -5,7 +5,7 @@ const PresentationSlides = () => {
   const presentationImages = getPresentationImages()
   return (
     <div id="PresentationSlides" className="flex-center">
-      <div>Sample Powerpoint Presentation Slides</div>
+      <h2>Powerpoint Presentation Slides</h2>
       <PptSlideshow
         title="Before and After"
         left={presentationImages["before1"]}

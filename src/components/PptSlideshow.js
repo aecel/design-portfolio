@@ -24,7 +24,7 @@ const PptSlideshow = ({ title, left, right }) => {
 
   return (
     <div className="flex-center">
-      <div>{title}</div>
+      <h3>{title}</h3>
       <div className="before-after-slides flex-center">
         <div className="flex-center">
           <div>Before</div>
