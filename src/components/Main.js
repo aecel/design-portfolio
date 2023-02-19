@@ -1,10 +1,13 @@
+import getIllustrationImages from "../getIllustrationImages"
 import getPresentationImages from "../getPresentationImages"
 import ContactMe from "./ContactMe"
+import IllustrationSlideshow from "./IllustrationSlideshow"
 import Introduction from "./Introduction"
 import PresentationSlides from "./PresentationSlides"
 
 const Main = () => {
   const slideImages = getPresentationImages()
+  const illustrationImages = getIllustrationImages()
 
   return (
     <main>
@@ -18,6 +21,10 @@ const Main = () => {
         >
           xxx
         </div>
+        <IllustrationSlideshow
+          title="Illustrations"
+          illustrationImages={illustrationImages}
+        />
       </div>
       <ContactMe />
     </main>
