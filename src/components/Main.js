@@ -1,9 +1,7 @@
 import getIllustrationImages from "../getIllustrationImages"
 import ContactMe from "./ContactMe"
 import IllustrationGrid from "./IllustrationGrid"
-import IllustrationSlideshow from "./IllustrationSlideshow"
 import Introduction from "./Introduction"
-import MyGallery from "./PhotoswipeSample"
 import PresentationSlides from "./PresentationSlides"
 
 const Main = () => {
