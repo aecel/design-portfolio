@@ -1,5 +1,7 @@
 import getIllustrationImages from "../getIllustrationImages"
+import "photoswipe/dist/photoswipe.css"
 
+import { Gallery, Item } from "react-photoswipe-gallery"
 const IllustrationGrid = () => {
   const illustrationImages = getIllustrationImages()
 
@@ -14,7 +16,7 @@ const IllustrationGrid = () => {
       src: illustrationImages[3],
       width: 625,
       height: 835,
-      name: "Downsizing Small Astronaut",
+      name: "Downsizing - Small Astronaut",
     },
     {
       src: illustrationImages[6],
@@ -75,7 +77,7 @@ const IllustrationGrid = () => {
       src: illustrationImages[5],
       width: 768,
       height: 1024,
-      name: "Good Omens Silhouette",
+      name: "Good Omens - Silhouette",
     },
     {
       src: illustrationImages[8],
@@ -88,7 +90,7 @@ const IllustrationGrid = () => {
       src: illustrationImages[13],
       width: 768,
       height: 1024,
-      name: "Shazam Shadow",
+      name: "Shazam - Shadow",
     },
     {
       src: illustrationImages[14],
@@ -114,28 +116,42 @@ const IllustrationGrid = () => {
       }}
     >
       <h2>Illustrations</h2>
-      <div
-        style={{
-          width: "100%",
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "20px",
-          justifyContent: "center",
-        }}
-      >
-        {images.map((image) => {
-          return (
-            <img
-              alt=""
-              src={image.src}
-              style={{
-                height: "400px",
-                width: "auto",
-              }}
-            />
-          )
-        })}
-      </div>
+      <Gallery>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "20px",
+            justifyContent: "center",
+          }}
+        >
+          {images.map((image) => {
+            return (
+              <Item
+                original={image.src}
+                thumbnail={image.src}
+                width={image.width}
+                height={image.height}
+              >
+                {({ ref, open }) => (
+                  <img
+                    ref={ref}
+                    onClick={open}
+                    src={image.src}
+                    alt={image.name}
+                    style={{
+                      height: "400px",
+                      width: "auto",
+                      cursor: "pointer",
+                    }}
+                  />
+                )}
+              </Item>
+            )
+          })}
+        </div>
+      </Gallery>
     </div>
   )
 }
