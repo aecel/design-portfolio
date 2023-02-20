@@ -2,10 +2,78 @@ import getIllustrationImages from "../getIllustrationImages"
 import "photoswipe/dist/photoswipe.css"
 
 import { Gallery, Item } from "react-photoswipe-gallery"
+
+const ImageItem = ({ image }) => {
+  return (
+    <Item
+      original={image.src}
+      thumbnail={image.src}
+      width={image.width}
+      height={image.height}
+    >
+      {({ ref, open }) => (
+        <img
+          ref={ref}
+          onClick={open}
+          src={image.src}
+          alt={image.name}
+          style={
+            image.name === "Marwen"
+              ? {
+                  width: "200px",
+                  height: "auto",
+                  cursor: "pointer",
+                  objectFit: "fill",
+                }
+              : {
+                  width: "200px",
+                  height: "auto",
+                  cursor: "pointer",
+                  objectFit: "cover",
+                }
+          }
+        />
+      )}
+    </Item>
+  )
+}
+
+const ImageGrid = ({ imageArray }) => {
+  const length = imageArray.length
+  let output = []
+
+  for (let i = 0; i < length; i += 4) {
+    const toPush = (
+      <div
+        key={i}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+        }}
+      >
+        <ImageItem image={imageArray[i]} />
+        <ImageItem image={imageArray[i + 1]} />
+        <ImageItem image={imageArray[i + 2]} />
+        <ImageItem image={imageArray[i + 3]} />
+      </div>
+    )
+    output.push(toPush)
+  }
+
+  return <>{output}</>
+}
+
 const IllustrationGrid = () => {
   const illustrationImages = getIllustrationImages()
 
   const images = [
+    {
+      src: illustrationImages[12],
+      width: 704,
+      height: 813,
+      name: "Pacific Rim",
+    },
     {
       src: illustrationImages[10],
       width: 963,
@@ -23,12 +91,6 @@ const IllustrationGrid = () => {
       width: 768,
       height: 1021,
       name: "Good Omens",
-    },
-    {
-      src: illustrationImages[12],
-      width: 704,
-      height: 813,
-      name: "Pacific Rim",
     },
     {
       src: illustrationImages[0],
@@ -127,28 +189,8 @@ const IllustrationGrid = () => {
           }}
         >
           {images.map((image) => {
-            return (
-              <Item
-                original={image.src}
-                thumbnail={image.src}
-                width={image.width}
-                height={image.height}
-              >
-                {({ ref, open }) => (
-                  <img
-                    ref={ref}
-                    onClick={open}
-                    src={image.src}
-                    alt={image.name}
-                    style={{
-                      height: "400px",
-                      width: "auto",
-                      cursor: "pointer",
-                    }}
-                  />
-                )}
-              </Item>
-            )
+            console.log(image.name + " : " + image.height / image.width)
+            return <ImageItem image={image} />
           })}
         </div>
       </Gallery>
