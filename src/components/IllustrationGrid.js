@@ -189,8 +189,8 @@ const IllustrationGrid = () => {
           }}
         >
           {images.map((image) => {
-            console.log(image.name + " : " + image.height / image.width)
-            return <ImageItem image={image} />
+            // console.log(image.name + " : " + image.height / image.width)
+            return <ImageItem image={image} key={image.name} />
           })}
         </div>
       </Gallery>
