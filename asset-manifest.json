@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/design-portfolio/static/css/main.47f5f86d.css",
-    "main.js": "/design-portfolio/static/js/main.005a3a3f.js",
+    "main.js": "/design-portfolio/static/js/main.2f3ae17a.js",
     "static/media/maninthehighcastle.PNG": "/design-portfolio/static/media/maninthehighcastle.7b798cb5a26e8d3ad7c2.PNG",
     "static/media/pacific rim.PNG": "/design-portfolio/static/media/pacific rim.0cb0ea4adde77bd01a76.PNG",
     "static/media/crimesofgrindelwaldwithbackground-01.png": "/design-portfolio/static/media/crimesofgrindelwaldwithbackground-01.f2ebf5404d033922ad69.png",
@@ -40,10 +40,10 @@
     "static/media/Slide03.5.PNG": "/design-portfolio/static/media/Slide03.5.f96ed91c3f4c305f0ecf.PNG",
     "index.html": "/design-portfolio/index.html",
     "main.47f5f86d.css.map": "/design-portfolio/static/css/main.47f5f86d.css.map",
-    "main.005a3a3f.js.map": "/design-portfolio/static/js/main.005a3a3f.js.map"
+    "main.2f3ae17a.js.map": "/design-portfolio/static/js/main.2f3ae17a.js.map"
   },
   "entrypoints": [
     "static/css/main.47f5f86d.css",
-    "static/js/main.005a3a3f.js"
+    "static/js/main.2f3ae17a.js"
   ]
 }
