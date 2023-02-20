@@ -17,21 +17,12 @@ const ImageItem = ({ image }) => {
           onClick={open}
           src={image.src}
           alt={image.name}
-          style={
-            image.name === "Marwen"
-              ? {
-                  width: "200px",
-                  height: "auto",
-                  cursor: "pointer",
-                  objectFit: "fill",
-                }
-              : {
-                  width: "200px",
-                  height: "auto",
-                  cursor: "pointer",
-                  objectFit: "cover",
-                }
-          }
+          style={{
+            width: "200px",
+            height: "auto",
+            cursor: "pointer",
+            objectFit: "cover",
+          }}
         />
       )}
     </Item>
@@ -76,8 +67,8 @@ const IllustrationGrid = () => {
     },
     {
       src: illustrationImages[10],
-      width: 963,
-      height: 1267,
+      width: 1284,
+      height: 1926,
       name: "Marwen",
     },
     {
