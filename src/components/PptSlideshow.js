@@ -24,13 +24,13 @@ const PptSlideshow = ({ title, left, right }) => {
 
   return (
     <div className="flex-center">
-      <h3>{title}</h3>
+      {title ? <h3>{title}</h3> : <></>}
       <div className="before-after-slides flex-center">
         <div className="flex-center">
           <div>Before</div>
           <img className="slide-image" alt="" src={left[imageIndex]} />
         </div>
-        <div className="flex-center">
+        {/* <div className="flex-center">
           <div
             style={{
               alignSelf: "center",
@@ -38,7 +38,7 @@ const PptSlideshow = ({ title, left, right }) => {
           >
             =&gt;
           </div>
-        </div>
+        </div> */}
         <div className="flex-center">
           <div>After</div>
           <img className="slide-image" alt="" src={right[imageIndex]} />

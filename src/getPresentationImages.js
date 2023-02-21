@@ -1,25 +1,25 @@
 const getPresentationImages = () => {
-  let presentationImages = []
-
   // Importing all images in a folder
   const importAll = (r) => {
     return r.keys().map(r)
   }
 
-  const before1 = importAll(
-    require.context("./images/slides/before1", false, /\.(PNG|png|jpe?g|svg)$/)
+  const presentationImages = importAll(
+    require.context("./images/slides/samples", false, /\.(PNG|png|jpe?g|svg)$/)
   )
 
-  const after1 = importAll(
-    require.context("./images/slides/after1", false, /\.(PNG|png|jpe?g|svg)$/)
-  )
+  let imagesArray = []
 
-  presentationImages = {
-    before1: before1,
-    after1: after1,
+  for (const image of presentationImages) {
+    imagesArray.push({
+      src: image,
+      width: 1280,
+      height: 720,
+      name: `Slide ${presentationImages.indexOf(image)}`,
+    })
   }
 
-  return presentationImages
+  return imagesArray
 }
 
 export default getPresentationImages
