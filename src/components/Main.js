@@ -13,7 +13,7 @@ const Main = () => {
     <div
       className="flex-center"
       style={{
-        backgroundColor: "#1e1e1e",
+        // backgroundColor: "#1e1e1e",
         width: "100%",
         height: "10px",
         borderRadius: "10px",
