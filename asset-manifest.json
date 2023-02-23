@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.47f5f86d.css",
-    "main.js": "/design-portfolio/static/js/main.a17884fa.js",
+    "main.css": "/design-portfolio/static/css/main.ee9bee8e.css",
+    "main.js": "/design-portfolio/static/js/main.be100bb8.js",
     "static/media/maninthehighcastle.PNG": "/design-portfolio/static/media/maninthehighcastle.7b798cb5a26e8d3ad7c2.PNG",
     "static/media/Slide6.PNG": "/design-portfolio/static/media/Slide6.6066e9f5cb6060e1b8cd.PNG",
     "static/media/pacific rim.PNG": "/design-portfolio/static/media/pacific rim.0cb0ea4adde77bd01a76.PNG",
@@ -52,11 +52,11 @@
     "static/media/Slide17.PNG": "/design-portfolio/static/media/Slide17.70b9e417d3c1bca561c6.PNG",
     "static/media/Slide03.5.PNG": "/design-portfolio/static/media/Slide03.5.f96ed91c3f4c305f0ecf.PNG",
     "index.html": "/design-portfolio/index.html",
-    "main.47f5f86d.css.map": "/design-portfolio/static/css/main.47f5f86d.css.map",
-    "main.a17884fa.js.map": "/design-portfolio/static/js/main.a17884fa.js.map"
+    "main.ee9bee8e.css.map": "/design-portfolio/static/css/main.ee9bee8e.css.map",
+    "main.be100bb8.js.map": "/design-portfolio/static/js/main.be100bb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.47f5f86d.css",
-    "static/js/main.a17884fa.js"
+    "static/css/main.ee9bee8e.css",
+    "static/js/main.be100bb8.js"
   ]
 }
