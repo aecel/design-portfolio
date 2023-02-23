@@ -27,7 +27,7 @@ const PptSlideshow = ({ title, left, right }) => {
       {title ? <h3>{title}</h3> : <></>}
       <div className="before-after-slides flex-center">
         <div className="flex-center">
-          <div>Before</div>
+          <div>Before (Input from Client)</div>
           <img className="slide-image" alt="" src={left[imageIndex]} />
         </div>
         {/* <div className="flex-center">
