@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.ee9bee8e.css",
-    "main.js": "/design-portfolio/static/js/main.be100bb8.js",
+    "main.css": "/design-portfolio/static/css/main.dabb059f.css",
+    "main.js": "/design-portfolio/static/js/main.4d34e07a.js",
+    "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
+    "static/media/shopping-cart.png": "/design-portfolio/static/media/shopping-cart.74af3519d3ffa39013c4.png",
+    "static/media/weather-app.png": "/design-portfolio/static/media/weather-app.f4f6d9febc1a57935a45.png",
+    "static/media/sign-up-form.png": "/design-portfolio/static/media/sign-up-form.5b33b0a6444eaec9e2de.png",
     "static/media/maninthehighcastle.PNG": "/design-portfolio/static/media/maninthehighcastle.7b798cb5a26e8d3ad7c2.PNG",
     "static/media/Slide6.PNG": "/design-portfolio/static/media/Slide6.6066e9f5cb6060e1b8cd.PNG",
     "static/media/pacific rim.PNG": "/design-portfolio/static/media/pacific rim.0cb0ea4adde77bd01a76.PNG",
     "static/media/Slide14.PNG": "/design-portfolio/static/media/Slide14.fcc7607072bca11e1740.PNG",
     "static/media/Slide10.PNG": "/design-portfolio/static/media/Slide10.7d489e1bcb385beae165.PNG",
     "static/media/Slide4.PNG": "/design-portfolio/static/media/Slide4.b44e7b0b0867168346b2.PNG",
+    "static/media/Introduction.gif": "/design-portfolio/static/media/Introduction.2d8c74c4359de58f568e.gif",
     "static/media/Slide2.PNG": "/design-portfolio/static/media/Slide2.fd3fe54a93e7f09ebccd.PNG",
     "static/media/Slide13.PNG": "/design-portfolio/static/media/Slide13.724a121ccad530cd1783.PNG",
     "static/media/Slide3.PNG": "/design-portfolio/static/media/Slide3.4cea5b9fe11d179d15de.PNG",
@@ -32,6 +37,7 @@
     "static/media/Slide8.PNG": "/design-portfolio/static/media/Slide8.f114433390228eebf26a.PNG",
     "static/media/mortal engines.PNG": "/design-portfolio/static/media/mortal engines.69b3d1c37ecc06cd3617.PNG",
     "static/media/Slide03.1.PNG": "/design-portfolio/static/media/Slide03.1.15981ed7b70c658486f2.PNG",
+    "static/media/dashboard.png": "/design-portfolio/static/media/dashboard.04193378f60d25a3ede1.png",
     "static/media/downsizing.PNG": "/design-portfolio/static/media/downsizing.8c766023091697e58e19.PNG",
     "static/media/Slide03.2.PNG": "/design-portfolio/static/media/Slide03.2.489af6cadf80089ab812.PNG",
     "static/media/Slide03.4.PNG": "/design-portfolio/static/media/Slide03.4.89efd44acc0fee7dfa95.PNG",
@@ -52,11 +58,11 @@
     "static/media/Slide17.PNG": "/design-portfolio/static/media/Slide17.70b9e417d3c1bca561c6.PNG",
     "static/media/Slide03.5.PNG": "/design-portfolio/static/media/Slide03.5.f96ed91c3f4c305f0ecf.PNG",
     "index.html": "/design-portfolio/index.html",
-    "main.ee9bee8e.css.map": "/design-portfolio/static/css/main.ee9bee8e.css.map",
-    "main.be100bb8.js.map": "/design-portfolio/static/js/main.be100bb8.js.map"
+    "main.dabb059f.css.map": "/design-portfolio/static/css/main.dabb059f.css.map",
+    "main.4d34e07a.js.map": "/design-portfolio/static/js/main.4d34e07a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee9bee8e.css",
-    "static/js/main.be100bb8.js"
+    "static/css/main.dabb059f.css",
+    "static/js/main.4d34e07a.js"
   ]
 }
