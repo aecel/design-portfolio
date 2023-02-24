@@ -10,12 +10,6 @@ const getIllustrationImages = () => {
 
   const imagesArray = [
     {
-      src: illustrationImages[12],
-      width: 704,
-      height: 813,
-      name: "Pacific Rim",
-    },
-    {
       src: illustrationImages[10],
       width: 1284,
       height: 1926,
@@ -26,6 +20,12 @@ const getIllustrationImages = () => {
       width: 625,
       height: 835,
       name: "Downsizing - Small Astronaut",
+    },
+    {
+      src: illustrationImages[12],
+      width: 704,
+      height: 813,
+      name: "Pacific Rim",
     },
     {
       src: illustrationImages[6],

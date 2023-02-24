@@ -108,7 +108,7 @@ button:active {
 #Introduction {
   background-color: var(--dark-gray);
   padding: 50px var(--screen-margin) 50px var(--screen-margin);
-  height: 500px;
+  height: 600px;
 }
 
 /* PresentationSlides component */

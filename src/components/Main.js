@@ -1,5 +1,6 @@
 import getIllustrationImages from "../getIllustrationImages"
 import getPresentationImages from "../getPresentationImages"
+import getWebDesignImages from "../getWebDesignImages"
 import ContactMe from "./ContactMe"
 import ImageGrid from "./ImageGrid"
 import Introduction from "./Introduction"
@@ -8,6 +9,7 @@ import PresentationSlides from "./PresentationSlides"
 const Main = () => {
   const illustrationImages = getIllustrationImages()
   const presentationImages = getPresentationImages()
+  const webDesignImages = getWebDesignImages()
 
   const Divider = () => (
     <div
@@ -15,8 +17,9 @@ const Main = () => {
       style={{
         // backgroundColor: "#1e1e1e",
         width: "100%",
-        height: "10px",
-        borderRadius: "10px",
+        height: "20px",
+        // borderRadius: "10px",
+        borderBottom: "gray 2px dashed",
       }}
     ></div>
   )
@@ -25,7 +28,7 @@ const Main = () => {
     <main>
       <Introduction />
       <div className="main-with-margin flex-center">
-        <h1>Sample Works</h1>
+        <h2>Sample Works</h2>
         <PresentationSlides />
         <Divider />
         <ImageGrid
@@ -34,6 +37,12 @@ const Main = () => {
         />
         <Divider />
         <ImageGrid title="Illustrations" imagesArray={illustrationImages} />
+        <Divider />
+        <ImageGrid
+          title="Web Design"
+          imagesArray={webDesignImages}
+          width="300px"
+        />
       </div>
       <ContactMe />
     </main>
