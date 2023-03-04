@@ -145,6 +145,13 @@ button:active {
   min-height: 100%;
 }
 
+#waves-lighter-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+}
+
 /* PresentationSlides component */
 
 #PresentationSlides {

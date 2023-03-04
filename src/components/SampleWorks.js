@@ -4,6 +4,8 @@ import getWebDesignImages from "../getWebDesignImages"
 import ImageGrid from "./ImageGrid"
 import PresentationSlides from "./PresentationSlides"
 import wigglyLineSvg from "../images/wiggly-line.svg"
+import WavesVideo from "./WavesVideo"
+import WavesLighterVideo from "./WavesLighterVideo"
 
 const Divider = () => (
   <div
@@ -11,14 +13,16 @@ const Divider = () => (
     style={{
       // backgroundColor: "#1e1e1e",
       width: "100%",
-      height: "10px",
+      height: "130px",
       // borderRadius: "10px",
       // borderBottom: "var(--color-theme) 2px dashed",
-      marginTop: "60px",
-      marginBottom: "60px",
+      marginTop: "20px",
+      marginBottom: "20px",
+      overflow: "hidden",
+      position: "relative",
     }}
   >
-    <img src={wigglyLineSvg} alt="" />
+    <WavesLighterVideo />
   </div>
 )
 
