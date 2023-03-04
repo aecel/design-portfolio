@@ -35,16 +35,16 @@ body,
 
 header,
 footer {
-  height: 30px;
   width: 100%;
   padding: 20px var(--screen-margin) 20px var(--screen-margin);
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 header {
-  background-color: var(--dark-gray);
+  background-color: rgba(0, 0, 0, 0.301);
   justify-content: space-between;
   gap: 20px;
 }
@@ -117,6 +117,28 @@ button:hover {
 
 button:active {
   background-color: var(--color-theme-dark);
+}
+
+/* Introduction component */
+
+/* #Introduction,
+#ContactMe {
+  background-image: url(../images/Waves.gif);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+#Introduction,
+#ContactMe {
+  position: relative;
+}
+
+#waves-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* PresentationSlides component */

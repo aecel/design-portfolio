@@ -5,6 +5,7 @@ const ContactMe = () => {
         className="flex-center"
         style={{
           maxWidth: "1200px",
+          zIndex: "1",
         }}
       >
         <h2
