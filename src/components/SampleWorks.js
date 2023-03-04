@@ -3,6 +3,7 @@ import getPresentationImages from "../getPresentationImages"
 import getWebDesignImages from "../getWebDesignImages"
 import ImageGrid from "./ImageGrid"
 import PresentationSlides from "./PresentationSlides"
+import wigglyLineSvg from "../images/wiggly-line.svg"
 
 const Divider = () => (
   <div
@@ -10,11 +11,15 @@ const Divider = () => (
     style={{
       // backgroundColor: "#1e1e1e",
       width: "100%",
-      height: "20px",
+      height: "10px",
       // borderRadius: "10px",
-      borderBottom: "var(--color-theme) 2px dashed",
+      // borderBottom: "var(--color-theme) 2px dashed",
+      marginTop: "60px",
+      marginBottom: "60px",
     }}
-  ></div>
+  >
+    <img src={wigglyLineSvg} alt="" />
+  </div>
 )
 
 const SampleWorks = () => {

@@ -1,15 +1,9 @@
-import { useEffect, useRef } from "react"
 import introductionGif from "../images/Introduction.gif"
-import wavesVid from "../images/Waves.webm"
+import WavesVideo from "./WavesVideo"
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
 
 const Introduction = () => {
-  const wavesVideoRef = useRef()
-
-  useEffect(() => {
-    wavesVideoRef.current.play()
-  }, [])
   return (
     <section id="Introduction" className="main-section">
       <div
@@ -48,9 +42,7 @@ const Introduction = () => {
           experience.
         </div>
       </div>
-      <video ref={wavesVideoRef} autoPlay muted loop id="waves-video">
-        <source src={wavesVid} type="video/mp4" />
-      </video>
+      <WavesVideo />
     </section>
   )
 }

@@ -133,6 +133,10 @@ button:active {
   position: relative;
 }
 
+#ContactMe {
+  overflow: hidden;
+}
+
 #waves-video {
   position: absolute;
   right: 0;

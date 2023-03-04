@@ -1,3 +1,4 @@
+import WavesVideo from "./WavesVideo"
 const ContactMe = () => {
   return (
     <section id="ContactMe" className="main-section">
@@ -23,6 +24,7 @@ const ContactMe = () => {
           Hire Me
         </a>
       </div>
+      <WavesVideo />
     </section>
   )
 }
