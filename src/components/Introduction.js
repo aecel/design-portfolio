@@ -1,8 +1,10 @@
 import introductionGif from "../images/Introduction.gif"
+const yearNow = new Date().getFullYear()
+const numOfYears = yearNow - 2017
 
 const Introduction = () => {
   return (
-    <div id="Introduction" className="flex-center">
+    <section id="Introduction" className="main-section">
       <div
         className="flex-center"
         style={{
@@ -24,13 +26,21 @@ const Introduction = () => {
           }}
         />
         <h2>Hi, I'm Aecel</h2>
-        <div>
-          I'm a graphic designer specializing in presentation design and vector
-          illustration
+        <div
+          style={{
+            lineHeight: "2",
+          }}
+        >
+          I'm a freelance graphic designer specializing in{" "}
+          <em className="emphasize-text">presentation design </em>
+          and <em className="emphasize-text">vector illustration</em>.
         </div>
-        <div></div>
+        <div>
+          I have <em className="emphasize-text">{numOfYears} years</em> of
+          experience.
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 

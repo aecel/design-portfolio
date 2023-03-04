@@ -1,6 +1,6 @@
 const ContactMe = () => {
   return (
-    <div id="ContactMe" className="flex-center">
+    <section id="ContactMe" className="main-section">
       <div
         className="flex-center"
         style={{
@@ -9,7 +9,7 @@ const ContactMe = () => {
       >
         <h2
           style={{
-            margin: "0",
+            // margin: "0",
             textAlign: "center",
           }}
         >
@@ -22,7 +22,7 @@ const ContactMe = () => {
           Hire Me
         </a>
       </div>
-    </div>
+    </section>
   )
 }
 

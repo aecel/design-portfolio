@@ -7,9 +7,13 @@
   --screen-margin: 200px;
   --default-padding: 20px;
   --default-gap: 50px;
+  --color-theme-dark: rgb(62, 116, 100);
+  --color-theme: rgb(101, 185, 160);
+  --color-theme-light: rgb(144, 230, 204);
   color: white;
   font-size: 1rem;
   box-sizing: border-box;
+  scrollbar-width: thin;
 }
 
 html,
@@ -49,6 +53,12 @@ footer {
   background-color: #141414;
 }
 
+.emphasize-text {
+  color: var(--color-theme);
+  /* font-weight: bold; */
+  font-style: normal;
+}
+
 /* Main component */
 
 main {
@@ -61,7 +71,8 @@ main {
   /* max-width: 1200px; */
 }
 
-.flex-center {
+.flex-center,
+.main-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,10 +80,15 @@ main {
   gap: var(--default-gap);
 }
 
+.main-section {
+  background-color: var(--dark-gray);
+  padding: 100px var(--screen-margin) 100px var(--screen-margin);
+}
+
 .main-with-margin {
   margin: 50px var(--screen-margin) 50px var(--screen-margin);
   max-width: 1200px;
-  
+
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -87,7 +103,7 @@ button {
   font-size: 1rem;
   font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  background-color: green;
+  background-color: var(--color-theme-dark);
   padding: 10px 20px 10px 20px;
   border: none;
   border-radius: 10px;
@@ -96,19 +112,11 @@ button {
 }
 
 button:hover {
-  background-color: lightgreen;
+  background-color: var(--color-theme);
 }
 
 button:active {
-  background-color: green;
-}
-
-/* Introduction component */
-
-#Introduction {
-  background-color: var(--dark-gray);
-  padding: 50px var(--screen-margin) 50px var(--screen-margin);
-  height: 600px;
+  background-color: var(--color-theme-dark);
 }
 
 /* PresentationSlides component */
@@ -139,38 +147,26 @@ button:active {
 
 /* ContactMe component */
 
-#ContactMe {
-  background-color: var(--dark-gray);
-  padding: 50px var(--screen-margin) 50px var(--screen-margin);
-  /* height: 500px; */
-}
-
 #HireMeButton {
   text-decoration: none;
   color: white;
   font-weight: bold;
   cursor: pointer;
   padding: 10px 20px 10px 20px;
-  background-color: green;
+  background-color: var(--color-theme);
   border: none;
   border-radius: 10px;
 }
 
 #HireMeButton:hover {
-  background-color: lightgreen;
+  background-color: var(--color-theme-light);
 }
 
 #HireMeButton:active {
-  background-color: green;
+  background-color: var(--color-theme-dark);
 }
 
 /* Media Queries */
-
-@media (max-width: 1500px) {
-  :root {
-    --screen-margin: 100px;
-  }
-}
 
 @media (max-width: 1200px) {
   :root {

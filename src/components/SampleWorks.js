@@ -12,7 +12,7 @@ const Divider = () => (
       width: "100%",
       height: "20px",
       // borderRadius: "10px",
-      borderBottom: "gray 2px dashed",
+      borderBottom: "var(--color-theme) 2px dashed",
     }}
   ></div>
 )
@@ -23,7 +23,7 @@ const SampleWorks = () => {
   const webDesignImages = getWebDesignImages()
 
   return (
-    <div className="main-with-margin flex-center">
+    <section className="main-with-margin flex-center">
       <h2>Sample Works</h2>
       <PresentationSlides />
       <Divider />
@@ -39,7 +39,7 @@ const SampleWorks = () => {
         imagesArray={webDesignImages}
         width="300px"
       />
-    </div>
+    </section>
   )
 }
 
