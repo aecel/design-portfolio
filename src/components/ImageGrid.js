@@ -1,7 +1,7 @@
 import "photoswipe/dist/photoswipe.css"
 import { Gallery, Item } from "react-photoswipe-gallery"
 
-const ImageGrid = ({ title, imagesArray, width }) => {
+const ImageGrid = ({ title, imagesArray, width, subtitle }) => {
   const ImageItem = ({ image }) => {
     return (
       <Item
@@ -12,25 +12,11 @@ const ImageGrid = ({ title, imagesArray, width }) => {
       >
         {({ ref, open }) => (
           <img
+            className="grid-image"
             ref={ref}
             onClick={open}
             src={image.src}
             alt={image.name}
-            style={
-              width
-                ? {
-                    width: width,
-                    height: "auto",
-                    cursor: "pointer",
-                    objectFit: "cover",
-                  }
-                : {
-                    width: "200px",
-                    height: "auto",
-                    cursor: "pointer",
-                    objectFit: "cover",
-                  }
-            }
           />
         )}
       </Item>
@@ -47,7 +33,11 @@ const ImageGrid = ({ title, imagesArray, width }) => {
           alignItems: "center",
         }}
       >
-        <h2>{title}</h2>
+        <h1 className="grid-title">{title}</h1>
+        {subtitle ? <div>{subtitle}</div> : <></>}
+        <div style={{ marginBottom: "20px", color: "gray" }}>
+          Click or tap to enlarge
+        </div>
         <Gallery>
           <div
             style={{

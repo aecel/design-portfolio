@@ -27,7 +27,7 @@ const Introduction = () => {
             // objectFit: "contain",
           }}
         />
-        <h2>Hi, I'm Aecel</h2>
+        <h1>Hi, I'm Aecel</h1>
         <div
           style={{
             lineHeight: "2",

@@ -5,9 +5,9 @@ const PresentationSlides = () => {
   const presentationImages = getBeforeAfterImages()
   return (
     <section className="main-with-margin flex-center">
-      <h2>Sample Works</h2>
+      {/* <h1>Sample Works</h1> */}
       <div id="PresentationSlides" className="flex-center">
-        <h2 style={{ textAlign: "center" }}>Powerpoint Presentation Slides</h2>
+        <h1 className="grid-title">Powerpoint Presentation Slides</h1>
         <PptSlideshow
           title=""
           left={presentationImages["before1"]}

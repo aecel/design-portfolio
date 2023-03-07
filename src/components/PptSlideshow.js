@@ -12,7 +12,7 @@ const PptSlideshow = ({ title, left, right }) => {
       setImageIndex(nextImageIndex - 1)
     }
   }
- 
+
   const clickNext = () => {
     let nextImageIndex = imageIndex
     if (imageIndex === numOfSlides) {
@@ -26,12 +26,13 @@ const PptSlideshow = ({ title, left, right }) => {
     <div className="flex-center">
       {title ? <h3>{title}</h3> : <></>}
       <div className="before-after-slides flex-center">
-        <div className="flex-center">
-          <div>Before (Input from Client)</div>
+        <div>
+          <div className="slide-title">Before (Input from Client)</div>
           <img className="slide-image" alt="" src={left[imageIndex]} />
         </div>
-        <div className="flex-center">
-          <div>After</div>
+        {/* <div>{"=>"}</div> */}
+        <div>
+          <div className="slide-title">After</div>
           <img className="slide-image" alt="" src={right[imageIndex]} />
         </div>
       </div>
