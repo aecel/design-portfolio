@@ -38,31 +38,33 @@ const ImageGrid = ({ title, imagesArray, width }) => {
   }
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "20px",
-        alignItems: "center",
-      }}
-    >
-      <h2>{title}</h2>
-      <Gallery>
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "20px",
-            justifyContent: "center",
-          }}
-        >
-          {imagesArray.map((image) => {
-            return <ImageItem image={image} key={image.name} />
-          })}
-        </div>
-      </Gallery>
-    </div>
+    <section className="main-with-margin flex-center">
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "20px",
+          alignItems: "center",
+        }}
+      >
+        <h2>{title}</h2>
+        <Gallery>
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "20px",
+              justifyContent: "center",
+            }}
+          >
+            {imagesArray.map((image) => {
+              return <ImageItem image={image} key={image.name} />
+            })}
+          </div>
+        </Gallery>
+      </div>
+    </section>
   )
 }
 

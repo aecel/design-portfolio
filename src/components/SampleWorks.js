@@ -3,8 +3,6 @@ import getPresentationImages from "../getPresentationImages"
 import getWebDesignImages from "../getWebDesignImages"
 import ImageGrid from "./ImageGrid"
 import PresentationSlides from "./PresentationSlides"
-import wigglyLineSvg from "../images/wiggly-line.svg"
-import WavesVideo from "./WavesVideo"
 import WavesLighterVideo from "./WavesLighterVideo"
 
 const Divider = () => (
@@ -18,7 +16,7 @@ const Divider = () => (
       // borderBottom: "var(--color-theme) 2px dashed",
       marginTop: "20px",
       marginBottom: "20px",
-      overflow: "hidden",
+      overflow: "clip",
       position: "relative",
     }}
   >
@@ -32,8 +30,7 @@ const SampleWorks = () => {
   const webDesignImages = getWebDesignImages()
 
   return (
-    <section className="main-with-margin flex-center">
-      <h2>Sample Works</h2>
+    <>
       <PresentationSlides />
       <Divider />
       <ImageGrid
@@ -48,7 +45,7 @@ const SampleWorks = () => {
         imagesArray={webDesignImages}
         width="300px"
       />
-    </section>
+    </>
   )
 }
 
