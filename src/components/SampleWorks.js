@@ -3,7 +3,6 @@ import getIllustrationImages from "../getIllustrationImages"
 import getPresentationImages from "../getPresentationImages"
 import getWebDesignImages from "../getWebDesignImages"
 import ImageGrid from "./ImageGrid"
-import PresentationSlides from "./PresentationSlides"
 import WavesLighterVideo from "./WavesLighterVideo"
 
 const Divider = () => (
@@ -36,6 +35,7 @@ const SampleWorks = () => {
       <ImageGrid
         title="Web Design"
         imagesArray={webDesignImages}
+        imageClasses="grid-image-webdesign"
         // width="300px"
       />
     </div>

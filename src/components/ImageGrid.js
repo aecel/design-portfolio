@@ -1,7 +1,7 @@
 import "photoswipe/dist/photoswipe.css"
 import { Gallery, Item } from "react-photoswipe-gallery"
 
-const ImageGrid = ({ title, imagesArray, width, subtitle }) => {
+const ImageGrid = ({ title, imagesArray, subtitle, imageClasses }) => {
   const ImageItem = ({ image }) => {
     return (
       <Item
@@ -12,7 +12,7 @@ const ImageGrid = ({ title, imagesArray, width, subtitle }) => {
       >
         {({ ref, open }) => (
           <img
-            className="grid-image"
+            className={imageClasses ? `${imageClasses}` : "grid-image"}
             ref={ref}
             onClick={open}
             src={image.src}
@@ -34,9 +34,18 @@ const ImageGrid = ({ title, imagesArray, width, subtitle }) => {
         }}
       >
         <h1 className="grid-title">{title}</h1>
-        {subtitle ? <div>{subtitle}</div> : <></>}
-        <div style={{ marginBottom: "20px", color: "gray" }}>
-          Click or tap to enlarge
+        {subtitle && (
+          <div style={{ textAlign: "center", lineHeight: "2" }}>{subtitle}</div>
+        )}
+        <div
+          style={{
+            textAlign: "center",
+            lineHeight: "2",
+            marginBottom: "20px",
+            color: "gray",
+          }}
+        >
+          Click to enlarge and go to slideshow mode
         </div>
         <Gallery>
           <div

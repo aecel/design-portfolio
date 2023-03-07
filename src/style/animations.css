@@ -1,0 +1,18 @@
+.grid-image:hover,
+.grid-image-webdesign:hover,
+a:hover {
+  animation-name: enlarge;
+  animation-duration: 300ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes enlarge {
+  from {
+    scale: 0.89;
+  }
+  to {
+    scale: 1.2;
+  }
+}
