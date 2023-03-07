@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/design-portfolio/static/css/main.75e23b56.css",
-    "main.js": "/design-portfolio/static/js/main.7e716d81.js",
+    "main.js": "/design-portfolio/static/js/main.166217fe.js",
     "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
     "static/media/shopping-cart.png": "/design-portfolio/static/media/shopping-cart.74af3519d3ffa39013c4.png",
     "static/media/weather-app.png": "/design-portfolio/static/media/weather-app.f4f6d9febc1a57935a45.png",
@@ -24,10 +24,10 @@
     "static/media/shazam v10-01.png": "/design-portfolio/static/media/shazam v10-01.54b7782ea7bd1d4e3755.png",
     "static/media/Slide01.PNG": "/design-portfolio/static/media/Slide01.8d321af2b078d7605f48.PNG",
     "static/media/la llorona v2-01.png": "/design-portfolio/static/media/la llorona v2-01.5b102ac62ab1c84dbcd1.png",
+    "static/media/Waves Dark Green.webm": "/design-portfolio/static/media/Waves Dark Green.24fec0b7678705a4fd2d.webm",
     "static/media/glass v1-01.png": "/design-portfolio/static/media/glass v1-01.35ee7bbb6d607924d6f7.png",
     "static/media/Slide12.PNG": "/design-portfolio/static/media/Slide12.6bf1341f39e1dcb71778.PNG",
     "static/media/marwen3-01.png": "/design-portfolio/static/media/marwen3-01.e94d9fca3950c39784a7.png",
-    "static/media/Waves.webm": "/design-portfolio/static/media/Waves.595177dd33ff49e681d6.webm",
     "static/media/Slide09.PNG": "/design-portfolio/static/media/Slide09.f16c0586e2c2078f227d.PNG",
     "static/media/good omens v3-01.png": "/design-portfolio/static/media/good omens v3-01.732883f3968af0e6c735.png",
     "static/media/007.png": "/design-portfolio/static/media/007.d987f1c6660263f7ad9f.png",
@@ -39,12 +39,12 @@
     "static/media/Slide03.1.PNG": "/design-portfolio/static/media/Slide03.1.15981ed7b70c658486f2.PNG",
     "static/media/dashboard.png": "/design-portfolio/static/media/dashboard.04193378f60d25a3ede1.png",
     "static/media/downsizing.PNG": "/design-portfolio/static/media/downsizing.8c766023091697e58e19.PNG",
-    "static/media/Waves Lighter.webm": "/design-portfolio/static/media/Waves Lighter.7dbeb4df040161ba4c0a.webm",
     "static/media/Slide03.2.PNG": "/design-portfolio/static/media/Slide03.2.489af6cadf80089ab812.PNG",
     "static/media/Slide03.4.PNG": "/design-portfolio/static/media/Slide03.4.89efd44acc0fee7dfa95.PNG",
     "static/media/Slide03.3.PNG": "/design-portfolio/static/media/Slide03.3.d6aea72c30fc4fb826e4.PNG",
     "static/media/kingsman.PNG": "/design-portfolio/static/media/kingsman.0c0edb26c516be8e6ebe.PNG",
     "static/media/Slide20.PNG": "/design-portfolio/static/media/Slide20.4346c4282af080db7946.PNG",
+    "static/media/Waves Lighter 2.webm": "/design-portfolio/static/media/Waves Lighter 2.f12c7812e2e3add4bef5.webm",
     "static/media/Slide19.PNG": "/design-portfolio/static/media/Slide19.0a455cd0a370b6beb258.PNG",
     "static/media/Slide16.PNG": "/design-portfolio/static/media/Slide16.7521bf0e496a9720c21d.PNG",
     "static/media/good omens v1-01.png": "/design-portfolio/static/media/good omens v1-01.e7f29dc3c84ae443739a.png",
@@ -54,13 +54,12 @@
     "static/media/Slide03.6.PNG": "/design-portfolio/static/media/Slide03.6.00d392b6746e830a07bc.PNG",
     "static/media/Slide17.PNG": "/design-portfolio/static/media/Slide17.70b9e417d3c1bca561c6.PNG",
     "static/media/Slide03.5.PNG": "/design-portfolio/static/media/Slide03.5.f96ed91c3f4c305f0ecf.PNG",
-    "static/media/wiggly-line.svg": "/design-portfolio/static/media/wiggly-line.d3f009bcf791cb9717fa4e5ab3839149.svg",
     "index.html": "/design-portfolio/index.html",
     "main.75e23b56.css.map": "/design-portfolio/static/css/main.75e23b56.css.map",
-    "main.7e716d81.js.map": "/design-portfolio/static/js/main.7e716d81.js.map"
+    "main.166217fe.js.map": "/design-portfolio/static/js/main.166217fe.js.map"
   },
   "entrypoints": [
     "static/css/main.75e23b56.css",
-    "static/js/main.7e716d81.js"
+    "static/js/main.166217fe.js"
   ]
 }
