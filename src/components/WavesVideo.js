@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react"
-import wavesVid from "../images/Waves.webm"
+import wavesVid from "../images/Waves Dark Green.webm"
 
 const WavesVideo = () => {
   const wavesVideoRef = useRef()
