@@ -6,5 +6,7 @@
 
 Add a section for software used
 
-Change waves video? -->
+Change waves video? 
+
+Change overall design lol-->
 
