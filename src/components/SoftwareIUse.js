@@ -1,5 +1,5 @@
 const SoftwareIUse = () => {
-  return <></>
+  return <section className="main-section"></section>
 }
 
 export default SoftwareIUse
