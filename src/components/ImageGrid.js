@@ -1,7 +1,7 @@
 import "photoswipe/dist/photoswipe.css"
 import { Gallery, Item } from "react-photoswipe-gallery"
 
-const ImageGrid = ({ title, imagesArray, subtitle, imageClasses }) => {
+const ImageGrid = ({ id, title, imagesArray, subtitle, imageClasses }) => {
   const ImageItem = ({ image }) => {
     return (
       <Item
@@ -24,7 +24,7 @@ const ImageGrid = ({ title, imagesArray, subtitle, imageClasses }) => {
   }
 
   return (
-    <section className="main-with-margin flex-center">
+    <section id={id} className="main-with-margin flex-center">
       <div
         style={{
           display: "flex",

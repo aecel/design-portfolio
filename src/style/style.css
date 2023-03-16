@@ -16,6 +16,10 @@
   scrollbar-width: thin;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   background-color: var(--gray);
@@ -213,6 +217,42 @@ button:active {
   background-color: var(--color-theme-dark);
 }
 
+/* Software Block component */
+
+.rounded-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  height: 100px;
+  width: 140px;
+  padding: 20px;
+  background-color: #212028;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  /* min-width: 105px; */
+}
+
+.rounded-square-icon-container {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-square-icon {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.rounded-square-text {
+  font-weight: bold;
+  text-align: center;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
@@ -254,6 +294,16 @@ button:active {
 
   .grid-image {
     width: 160px;
+  }
+
+  .rounded-square {
+    height: 60px;
+    width: 90px;
+  }
+
+  .rounded-square-icon-container {
+    height: 20px;
+    width: 20px;
   }
 }
 

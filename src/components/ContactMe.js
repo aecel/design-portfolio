@@ -1,7 +1,22 @@
+import { useEffect, useRef } from "react"
 import WavesVideo from "./WavesVideo"
-const ContactMe = () => {
+const ContactMe = ({triggerRef}) => {
+  const sectionRef = useRef()
+
+  const scroll = () => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" })
+  }
+
+  useEffect(() => {
+    const trigger = triggerRef.current
+    trigger.addEventListener("click", scroll)
+
+    return () => {
+      trigger.removeEventListener("click", scroll)
+    }
+  }, [triggerRef])
   return (
-    <section id="ContactMe" className="main-section">
+    <div id="ContactMe" className="main-section" ref={sectionRef}>
       <div
         className="flex-center"
         style={{
@@ -25,7 +40,7 @@ const ContactMe = () => {
         </a>
       </div>
       <WavesVideo />
-    </section>
+    </div>
   )
 }
 

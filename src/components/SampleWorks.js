@@ -20,11 +20,13 @@ const SampleWorks = () => {
   return (
     <div className="flex-center">
       <ImageGrid
+        id="PresentationSamples"
         title="Presentation Samples"
         imagesArray={presentationImages}
       />
       <Divider />
       <ImageGrid
+        id="PresentationBeforeAndAfter"
         title="Before and After"
         imagesArray={beforeAndAfterImages}
         subtitle="Comparison of the input slide (from the client) to the final product"
@@ -33,6 +35,7 @@ const SampleWorks = () => {
       <ImageGrid title="Illustrations" imagesArray={illustrationImages} />
       <Divider />
       <ImageGrid
+        id="WebDesign"
         title="Web Design"
         imagesArray={webDesignImages}
         imageClasses="grid-image-webdesign"

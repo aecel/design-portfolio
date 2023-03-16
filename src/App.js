@@ -7,7 +7,6 @@ import animations from "./style/animations.css"
 const App = () => {
   return (
     <div className="App">
-      <Header />
       <Main />
       <Footer />
     </div>
