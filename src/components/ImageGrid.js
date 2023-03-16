@@ -1,7 +1,30 @@
 import "photoswipe/dist/photoswipe.css"
+import { useEffect, useRef } from "react"
 import { Gallery, Item } from "react-photoswipe-gallery"
 
-const ImageGrid = ({ id, title, imagesArray, subtitle, imageClasses }) => {
+const ImageGrid = ({
+  id,
+  title,
+  imagesArray,
+  subtitle,
+  imageClasses,
+  triggerRef,
+}) => {
+  const sectionRef = useRef()
+
+  const scroll = () => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" })
+  }
+
+  useEffect(() => {
+    const trigger = triggerRef.current
+    trigger.addEventListener("click", scroll)
+
+    return () => {
+      trigger.removeEventListener("click", scroll)
+    }
+  }, [triggerRef])
+
   const ImageItem = ({ image }) => {
     return (
       <Item
@@ -24,7 +47,7 @@ const ImageGrid = ({ id, title, imagesArray, subtitle, imageClasses }) => {
   }
 
   return (
-    <section id={id} className="main-with-margin flex-center">
+    <section ref={sectionRef} id={id} className="main-with-margin flex-center">
       <div
         style={{
           display: "flex",

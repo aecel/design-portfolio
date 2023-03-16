@@ -1,36 +1,50 @@
 import { useRef } from "react"
 import ContactMe from "./ContactMe"
+import Footer from "./Footer"
 import Introduction from "./Introduction"
 import SampleWorks from "./SampleWorks"
 
 const Main = () => {
+  const aboutMeRef = useRef()
+  const presentationRef = useRef()
+  const beforeAfterRef = useRef()
+  const illustrationsRef = useRef()
+  const webDesignRef = useRef()
   const contactMeRef = useRef()
 
   return (
     <>
       <header>
-        <div>x</div>
-        <div>y</div>
-        <div>z</div>
-        <div>x</div>
-        <div>y</div>
-        <div
-          ref={contactMeRef}
-          className="flex-center"
-          style={{
-            height: "50px",
-            width: "100px",
-            backgroundColor: "black",
-          }}
-        >
+        <button className="header-button" ref={aboutMeRef}>
+          About Me
+        </button>
+        <button className="header-button" ref={presentationRef}>
+          Presentations
+        </button>
+        <button className="header-button" ref={beforeAfterRef}>
+          More Presentations
+        </button>
+        <button className="header-button" ref={illustrationsRef}>
+          Illustrations
+        </button>
+        <button className="header-button" ref={webDesignRef}>
+          Web Design
+        </button>
+        <button className="header-button" ref={contactMeRef}>
           Contact Me
-        </div>
+        </button>
       </header>
       <main>
-        <Introduction />
-        <SampleWorks />
+        <Introduction triggerRef={aboutMeRef} />
+        <SampleWorks
+          presentationRef={presentationRef}
+          beforeAfterRef={beforeAfterRef}
+          illustrationsRef={illustrationsRef}
+          webDesignRef={webDesignRef}
+        />
         <ContactMe triggerRef={contactMeRef} />
       </main>
+      <Footer />
     </>
   )
 }

@@ -37,6 +37,26 @@ body,
   flex-direction: column;
 }
 
+button {
+  font-size: 1rem;
+  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: var(--color-theme-dark);
+  padding: 15px 25px 15px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 120px;
+}
+
+button:hover {
+  background-color: var(--color-theme);
+}
+
+button:active {
+  background-color: var(--color-theme-dark);
+}
+
 header,
 footer {
   width: 100%;
@@ -51,6 +71,8 @@ header {
   background-color: rgba(0, 0, 0, 0.301);
   justify-content: space-between;
   gap: 20px;
+  position: fixed;
+  z-index: 2;
 }
 
 footer {
@@ -61,6 +83,16 @@ footer {
   color: var(--color-theme);
   /* font-weight: bold; */
   font-style: normal;
+}
+
+/* Header elements */
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 140px;
 }
 
 /* Main component */

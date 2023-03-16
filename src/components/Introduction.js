@@ -1,11 +1,26 @@
+import { useEffect, useRef } from "react"
 import introductionGif from "../images/Introduction.gif"
 import WavesVideo from "./WavesVideo"
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
 
-const Introduction = () => {
+const Introduction = ({ triggerRef }) => {
+  const sectionRef = useRef()
+
+  const scroll = () => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" })
+  }
+
+  useEffect(() => {
+    const trigger = triggerRef.current
+    trigger.addEventListener("click", scroll)
+
+    return () => {
+      trigger.removeEventListener("click", scroll)
+    }
+  }, [triggerRef])
   return (
-    <section id="Introduction" className="main-section">
+    <section ref={sectionRef} id="Introduction" className="main-section">
       <div
         className="flex-center"
         style={{
