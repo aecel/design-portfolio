@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react"
 import introductionGif from "../images/Introduction.gif"
+import SpacingForHeader from "./SpacingForHeader"
 import WavesVideo from "./WavesVideo"
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
@@ -21,6 +22,7 @@ const Introduction = ({ triggerRef }) => {
   }, [triggerRef])
   return (
     <section ref={sectionRef} id="Introduction" className="main-section">
+      <SpacingForHeader />
       <div
         className="flex-center"
         style={{

@@ -15,24 +15,26 @@ const Main = () => {
   return (
     <>
       <header>
-        <button className="header-button" ref={aboutMeRef}>
-          About Me
-        </button>
-        <button className="header-button" ref={presentationRef}>
-          Presentations
-        </button>
-        <button className="header-button" ref={beforeAfterRef}>
-          More Presentations
-        </button>
-        <button className="header-button" ref={illustrationsRef}>
-          Illustrations
-        </button>
-        <button className="header-button" ref={webDesignRef}>
-          Web Design
-        </button>
-        <button className="header-button" ref={contactMeRef}>
-          Contact Me
-        </button>
+        <div className="header-elements">
+          <button className="header-button" ref={aboutMeRef}>
+            About Me
+          </button>
+          <button className="header-button" ref={presentationRef}>
+            Presentations
+          </button>
+          <button className="header-button" ref={beforeAfterRef}>
+            More Presentations
+          </button>
+          <button className="header-button" ref={illustrationsRef}>
+            Illustrations
+          </button>
+          <button className="header-button" ref={webDesignRef}>
+            Web Design
+          </button>
+          <button className="header-button" ref={contactMeRef}>
+            Contact Me
+          </button>
+        </div>
       </header>
       <main>
         <Introduction triggerRef={aboutMeRef} />

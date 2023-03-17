@@ -1,6 +1,7 @@
 .grid-image:hover,
 .grid-image-webdesign:hover,
-a:hover {
+a:hover,
+button:hover {
   animation-name: enlarge;
   animation-duration: 300ms;
   animation-iteration-count: 1;

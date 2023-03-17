@@ -1,6 +1,7 @@
 import "photoswipe/dist/photoswipe.css"
 import { useEffect, useRef } from "react"
 import { Gallery, Item } from "react-photoswipe-gallery"
+import SpacingForHeader from "./SpacingForHeader"
 
 const ImageGrid = ({
   id,
@@ -48,6 +49,7 @@ const ImageGrid = ({
 
   return (
     <section ref={sectionRef} id={id} className="main-with-margin flex-center">
+      <SpacingForHeader />
       <div
         style={{
           display: "flex",
