@@ -10,6 +10,7 @@ const ImageGrid = ({
   subtitle,
   imageClasses,
   triggerRef,
+  triggerRef2,
 }) => {
   const sectionRef = useRef()
 
@@ -20,11 +21,14 @@ const ImageGrid = ({
   useEffect(() => {
     const trigger = triggerRef.current
     trigger.addEventListener("click", scroll)
+    const trigger2 = triggerRef2.current
+    trigger2.addEventListener("click", scroll)
 
     return () => {
       trigger.removeEventListener("click", scroll)
+      trigger2.removeEventListener("click", scroll)
     }
-  }, [triggerRef])
+  }, [triggerRef, triggerRef2])
 
   const ImageItem = ({ image }) => {
     return (

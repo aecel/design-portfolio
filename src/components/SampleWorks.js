@@ -16,6 +16,10 @@ const SampleWorks = ({
   beforeAfterRef,
   illustrationsRef,
   webDesignRef,
+  presentationRef2,
+  beforeAfterRef2,
+  illustrationsRef2,
+  webDesignRef2,
 }) => {
   const beforeAndAfterImages = getBeforeAndAfterImages()
   const illustrationImages = getIllustrationImages()
@@ -26,6 +30,7 @@ const SampleWorks = ({
     <div className="flex-center">
       <ImageGrid
         triggerRef={presentationRef}
+        triggerRef2={presentationRef2}
         id="PresentationSamples"
         title="Presentation Samples"
         imagesArray={presentationImages}
@@ -33,6 +38,7 @@ const SampleWorks = ({
       <Divider />
       <ImageGrid
         triggerRef={beforeAfterRef}
+        triggerRef2={beforeAfterRef2}
         id="PresentationBeforeAndAfter"
         title="Before and After"
         imagesArray={beforeAndAfterImages}
@@ -41,6 +47,7 @@ const SampleWorks = ({
       <Divider />
       <ImageGrid
         triggerRef={illustrationsRef}
+        triggerRef2={illustrationsRef2}
         id="Illustrations"
         title="Illustrations"
         imagesArray={illustrationImages}
@@ -48,6 +55,7 @@ const SampleWorks = ({
       <Divider />
       <ImageGrid
         triggerRef={webDesignRef}
+        triggerRef2={webDesignRef2}
         id="WebDesign"
         title="Web Design"
         imagesArray={webDesignImages}

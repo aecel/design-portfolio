@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 import WavesVideo from "./WavesVideo"
-const ContactMe = ({ triggerRef }) => {
+const ContactMe = ({ triggerRef, triggerRef2 }) => {
   const sectionRef = useRef()
 
   const scroll = () => {
@@ -10,11 +10,14 @@ const ContactMe = ({ triggerRef }) => {
   useEffect(() => {
     const trigger = triggerRef.current
     trigger.addEventListener("click", scroll)
+    const trigger2 = triggerRef2.current
+    trigger2.addEventListener("click", scroll)
 
     return () => {
       trigger.removeEventListener("click", scroll)
+      trigger2.removeEventListener("click", scroll)
     }
-  }, [triggerRef])
+  }, [triggerRef, triggerRef2])
   return (
     <div id="ContactMe" className="main-section" ref={sectionRef}>
       <div

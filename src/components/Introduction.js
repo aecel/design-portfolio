@@ -5,7 +5,7 @@ import WavesVideo from "./WavesVideo"
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
 
-const Introduction = ({ triggerRef }) => {
+const Introduction = ({ triggerRef, triggerRef2 }) => {
   const sectionRef = useRef()
 
   const scroll = () => {
@@ -15,11 +15,14 @@ const Introduction = ({ triggerRef }) => {
   useEffect(() => {
     const trigger = triggerRef.current
     trigger.addEventListener("click", scroll)
+    const trigger2 = triggerRef2.current
+    trigger2.addEventListener("click", scroll)
 
     return () => {
       trigger.removeEventListener("click", scroll)
+      trigger2.removeEventListener("click", scroll)
     }
-  }, [triggerRef])
+  }, [triggerRef, triggerRef2])
   return (
     <section ref={sectionRef} id="Introduction" className="main-section">
       <SpacingForHeader />

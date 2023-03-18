@@ -12,6 +12,13 @@ const Main = () => {
   const webDesignRef = useRef()
   const contactMeRef = useRef()
 
+  const aboutMeHamburgerRef = useRef()
+  const presentationHamburgerRef = useRef()
+  const beforeAfterHamburgerRef = useRef()
+  const illustrationsHamburgerRef = useRef()
+  const webDesignHamburgerRef = useRef()
+  const contactMeHamburgerRef = useRef()
+
   const hamburgerItemsRef = useRef()
 
   const toggleHamburgerMenu = () => {
@@ -45,20 +52,75 @@ const Main = () => {
             Contact Me
           </button>
         </div>
-        <div id="hamburger-menu" onClick={toggleHamburgerMenu}></div>
+        <button id="hamburger-menu" onClick={toggleHamburgerMenu}>
+          <div className="hamburger-line"></div>
+          <div className="hamburger-line"></div>
+          <div className="hamburger-line"></div>
+        </button>
         <div id="hamburger-items" ref={hamburgerItemsRef}>
-          <div className="hamburger-item"></div>
+          <button
+            className="hamburger-item"
+            ref={aboutMeHamburgerRef}
+            onClick={toggleHamburgerMenu}
+          >
+            About Me
+          </button>
+          <button
+            className="hamburger-item"
+            ref={presentationHamburgerRef}
+            onClick={toggleHamburgerMenu}
+          >
+            Presentations
+          </button>
+          <button
+            className="hamburger-item"
+            ref={beforeAfterHamburgerRef}
+            onClick={toggleHamburgerMenu}
+          >
+            More Presentations
+          </button>
+          <button
+            className="hamburger-item"
+            ref={illustrationsHamburgerRef}
+            onClick={toggleHamburgerMenu}
+          >
+            Illustrations
+          </button>
+          <button
+            className="hamburger-item"
+            ref={webDesignHamburgerRef}
+            onClick={toggleHamburgerMenu}
+          >
+            Web Design
+          </button>
+          <button
+            className="hamburger-item"
+            ref={contactMeHamburgerRef}
+            onClick={toggleHamburgerMenu}
+          >
+            Contact Me
+          </button>
         </div>
       </header>
       <main>
-        <Introduction triggerRef={aboutMeRef} />
+        <Introduction
+          triggerRef={aboutMeRef}
+          triggerRef2={aboutMeHamburgerRef}
+        />
         <SampleWorks
           presentationRef={presentationRef}
           beforeAfterRef={beforeAfterRef}
           illustrationsRef={illustrationsRef}
           webDesignRef={webDesignRef}
+          presentationRef2={presentationHamburgerRef}
+          beforeAfterRef2={beforeAfterHamburgerRef}
+          illustrationsRef2={illustrationsHamburgerRef}
+          webDesignRef2={webDesignHamburgerRef}
         />
-        <ContactMe triggerRef={contactMeRef} />
+        <ContactMe
+          triggerRef={contactMeRef}
+          triggerRef2={contactMeHamburgerRef}
+        />
       </main>
       <Footer />
     </>
