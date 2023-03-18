@@ -6,7 +6,7 @@
   --dark-gray: #1e1e1e;
   --screen-margin: 200px;
   --default-padding: 20px;
-  --default-gap: 50px;
+  --default-gap: 15px;
   --color-theme-dark: rgb(62, 116, 100);
   --color-theme: rgb(101, 185, 160);
   --color-theme-light: rgb(144, 230, 204);
@@ -59,9 +59,11 @@ button:active {
 
 header,
 footer {
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
-  padding: 20px var(--screen-margin) 20px var(--screen-margin);
+  /* padding: 20px var(--screen-margin) 20px var(--screen-margin); */
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -71,7 +73,6 @@ footer {
 header {
   background-color: rgba(0, 0, 0, 0.547);
   justify-content: center;
-  gap: 20px;
   position: fixed;
   z-index: 2;
 }
@@ -95,7 +96,7 @@ footer {
   align-items: center;
   box-sizing: border-box;
   justify-content: space-between;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .header-button {
@@ -103,7 +104,8 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  /* width: 140px; */
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #hamburger-menu {
@@ -172,7 +174,7 @@ main {
 }
 
 .main-with-margin {
-  margin: 50px var(--screen-margin) 50px var(--screen-margin);
+  margin: 0px var(--screen-margin) 0px var(--screen-margin);
   max-width: 1200px;
 
   display: flex;
@@ -210,8 +212,7 @@ button:active {
 .divider {
   width: 100%;
   height: 200px;
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
+  margin-top: var(--default-gap);
   overflow: clip;
   position: relative;
 }
@@ -376,18 +377,10 @@ button:active {
 
   .divider {
     height: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
 }
 
-@media (min-width: 599px) {
-  #hamburger-items {
-    display: none;
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .header-elements {
     display: none;
   }
@@ -404,6 +397,7 @@ button:active {
 @media (max-width: 520px) {
   :root {
     --screen-margin: 20px;
+    --default-gap: 10px;
   }
 
   .grid-image {
@@ -424,6 +418,10 @@ button:active {
 @media (max-width: 400px) {
   .grid-image {
     width: 140px;
+  }
+
+  .divider {
+    height: 15px;
   }
 }
 

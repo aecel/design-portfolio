@@ -2,14 +2,8 @@ import getBeforeAndAfterImages from "../getBeforeAndAfterImages"
 import getIllustrationImages from "../getIllustrationImages"
 import getPresentationImages from "../getPresentationImages"
 import getWebDesignImages from "../getWebDesignImages"
+import Divider from "./Divider"
 import ImageGrid from "./ImageGrid"
-import WavesLighterVideo from "./WavesLighterVideo"
-
-const Divider = () => (
-  <div className="divider flex-center">
-    <WavesLighterVideo />
-  </div>
-)
 
 const SampleWorks = ({
   presentationRef,
@@ -60,7 +54,6 @@ const SampleWorks = ({
         title="Web Design"
         imagesArray={webDesignImages}
         imageClasses="grid-image-webdesign"
-        // width="300px"
       />
     </div>
   )
