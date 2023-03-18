@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react"
-import introductionGif from "../images/Introduction.gif"
+import introductionGif from "../images/NewProfilePic.gif"
 import SpacingForHeader from "./SpacingForHeader"
-import WavesVideo from "./WavesVideo"
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
 
@@ -42,7 +41,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             width: "300px",
             height: "auto",
             // border: "white 2px dashed",
-            borderRadius: "50%",
+            // borderRadius: "50%",
             // objectPosition: "top",
             // objectFit: "contain",
           }}
@@ -62,7 +61,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
           experience.
         </div>
       </div>
-      <WavesVideo />
+      {/* <WavesVideo /> */}
     </section>
   )
 }

@@ -2,7 +2,6 @@ import getBeforeAndAfterImages from "../getBeforeAndAfterImages"
 import getIllustrationImages from "../getIllustrationImages"
 import getPresentationImages from "../getPresentationImages"
 import getWebDesignImages from "../getWebDesignImages"
-import Divider from "./Divider"
 import ImageGrid from "./ImageGrid"
 
 const SampleWorks = ({
@@ -29,7 +28,7 @@ const SampleWorks = ({
         title="Presentation Samples"
         imagesArray={presentationImages}
       />
-      <Divider />
+      {/* <Divider /> */}
       <ImageGrid
         triggerRef={beforeAfterRef}
         triggerRef2={beforeAfterRef2}
@@ -38,7 +37,7 @@ const SampleWorks = ({
         imagesArray={beforeAndAfterImages}
         subtitle="Comparison of the input slide (from the client) to the final product"
       />
-      <Divider />
+      {/* <Divider /> */}
       <ImageGrid
         triggerRef={illustrationsRef}
         triggerRef2={illustrationsRef2}
@@ -46,7 +45,7 @@ const SampleWorks = ({
         title="Illustrations"
         imagesArray={illustrationImages}
       />
-      <Divider />
+      {/* <Divider /> */}
       <ImageGrid
         triggerRef={webDesignRef}
         triggerRef2={webDesignRef2}

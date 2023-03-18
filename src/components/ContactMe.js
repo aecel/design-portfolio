@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react"
-import WavesVideo from "./WavesVideo"
 const ContactMe = ({ triggerRef, triggerRef2 }) => {
   const sectionRef = useRef()
 
@@ -42,7 +41,7 @@ const ContactMe = ({ triggerRef, triggerRef2 }) => {
           Hire Me
         </a>
       </div>
-      <WavesVideo />
+      {/* <WavesVideo /> */}
     </div>
   )
 }

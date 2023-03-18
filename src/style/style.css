@@ -8,8 +8,11 @@
   --default-padding: 20px;
   --default-gap: 15px;
   --color-theme-dark: rgb(62, 116, 100);
+  --color-theme-dark: rgb(150, 80, 111);
   --color-theme: rgb(101, 185, 160);
+  --color-theme: rgb(207, 114, 156);
   --color-theme-light: rgb(144, 230, 204);
+  --color-theme-light: rgb(238, 149, 189);
   color: white;
   font-size: 1rem;
   box-sizing: border-box;
@@ -169,7 +172,7 @@ main {
 }
 
 .main-section {
-  background-color: var(--dark-gray);
+  /* background-color: var(--dark-gray); */
   padding: 100px var(--screen-margin) 100px var(--screen-margin);
 }
 
@@ -219,20 +222,35 @@ button:active {
 
 /* Introduction component */
 
-/* #Introduction,
-#ContactMe {
-  background-image: url(../images/Waves.gif);
+#Introduction {
+  background-image: url(../images/WaveBG.gif);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
+
+#ContactMe {
+  background-image: url(../images/WaveBGFlipped.gif);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #Introduction,
 #ContactMe {
   position: relative;
 }
 
+#Introduction {
+  height: 600px;
+  padding-bottom: 200px;
+}
+
 #ContactMe {
-  overflow: hidden;
+  /* overflow: clip; */
+  padding-top: 250px;
+  height: 400px;
+  margin-top: 60px;
 }
 
 #waves-video {
@@ -254,7 +272,7 @@ button:active {
 /* Image Grid component */
 
 .grid-title {
-  background-color: rgb(17, 26, 22);
+  background-color: rgb(22, 22, 22);
   padding: 15px 25px 15px 25px;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -287,7 +305,7 @@ button:active {
   font-weight: bold;
   cursor: pointer;
   padding: 15px 25px 15px 25px;
-  background-color: var(--color-theme-dark);
+  background-color: var(--color-theme);
   border: none;
   border-radius: 10px;
 }

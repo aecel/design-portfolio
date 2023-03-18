@@ -1,9 +1,3 @@
-import WavesLighterVideo from "./WavesLighterVideo"
-
-const Divider = () => (
-  <div className="divider flex-center">
-    <WavesLighterVideo />
-  </div>
-)
+const Divider = () => <div className="divider flex-center"></div>
 
 export default Divider
