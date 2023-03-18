@@ -106,6 +106,24 @@ footer {
   /* width: 140px; */
 }
 
+#hamburger-menu {
+  display: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: black;
+  position: relative;
+}
+
+#hamburger-items {
+  display: none;
+  position: absolute;
+  top: 75px;
+  background-color: blue;
+  width: 200px;
+  height: 300px;
+}
+
 /* Main component */
 
 main {
@@ -318,6 +336,18 @@ button:active {
   }
 }
 
+@media (max-width: 900px) {
+  header {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .header-button {
+    font-size: 0.9rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
 @media (max-width: 700px) {
   :root {
     --screen-margin: 30px;
@@ -327,6 +357,26 @@ button:active {
     height: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 599px) {
+  #hamburger-items {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-elements {
+    display: none;
+  }
+
+  header {
+    justify-content: right;
+  }
+
+  #hamburger-menu {
+    display: flex;
   }
 }
 

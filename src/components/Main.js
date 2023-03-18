@@ -12,6 +12,16 @@ const Main = () => {
   const webDesignRef = useRef()
   const contactMeRef = useRef()
 
+  const hamburgerItemsRef = useRef()
+
+  const toggleHamburgerMenu = () => {
+    if (hamburgerItemsRef.current.style.display === "none") {
+      hamburgerItemsRef.current.style.display = "flex"
+    } else {
+      hamburgerItemsRef.current.style.display = "none"
+    }
+  }
+
   return (
     <>
       <header>
@@ -34,6 +44,10 @@ const Main = () => {
           <button className="header-button" ref={contactMeRef}>
             Contact Me
           </button>
+        </div>
+        <div id="hamburger-menu" onClick={toggleHamburgerMenu}></div>
+        <div id="hamburger-items" ref={hamburgerItemsRef}>
+          <div className="hamburger-item"></div>
         </div>
       </header>
       <main>

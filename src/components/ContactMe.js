@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react"
-import SpacingForHeader from "./SpacingForHeader"
 import WavesVideo from "./WavesVideo"
 const ContactMe = ({ triggerRef }) => {
   const sectionRef = useRef()
@@ -18,7 +17,6 @@ const ContactMe = ({ triggerRef }) => {
   }, [triggerRef])
   return (
     <div id="ContactMe" className="main-section" ref={sectionRef}>
-      {/* <SpacingForHeader /> */}
       <div
         className="flex-center"
         style={{
