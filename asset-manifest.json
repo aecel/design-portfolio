@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.30383e05.css",
-    "main.js": "/design-portfolio/static/js/main.16396132.js",
+    "main.css": "/design-portfolio/static/css/main.df0966d9.css",
+    "main.js": "/design-portfolio/static/js/main.f693b94a.js",
     "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
     "static/media/Introduction.gif": "/design-portfolio/static/media/Introduction.2d8c74c4359de58f568e.gif",
     "static/media/shopping-cart.png": "/design-portfolio/static/media/shopping-cart.941e2a3409e5380f97e3.png",
@@ -47,11 +47,11 @@
     "static/media/good omens v1-01.png": "/design-portfolio/static/media/good omens v1-01.13659c03487432300a0c.png",
     "static/media/shazam v6-01.png": "/design-portfolio/static/media/shazam v6-01.a2b4e4316cecae40d3df.png",
     "index.html": "/design-portfolio/index.html",
-    "main.30383e05.css.map": "/design-portfolio/static/css/main.30383e05.css.map",
-    "main.16396132.js.map": "/design-portfolio/static/js/main.16396132.js.map"
+    "main.df0966d9.css.map": "/design-portfolio/static/css/main.df0966d9.css.map",
+    "main.f693b94a.js.map": "/design-portfolio/static/js/main.f693b94a.js.map"
   },
   "entrypoints": [
-    "static/css/main.30383e05.css",
-    "static/js/main.16396132.js"
+    "static/css/main.df0966d9.css",
+    "static/js/main.f693b94a.js"
   ]
 }
