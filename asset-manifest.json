@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.441c6b93.css",
-    "main.js": "/design-portfolio/static/js/main.c35a321c.js",
+    "main.css": "/design-portfolio/static/css/main.c3324c28.css",
+    "main.js": "/design-portfolio/static/js/main.5ef7e28e.js",
     "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
-    "static/media/Introduction.gif": "/design-portfolio/static/media/Introduction.2d8c74c4359de58f568e.gif",
+    "static/media/WaveBGFlipped.gif": "/design-portfolio/static/media/WaveBGFlipped.d07b55e438ba8f53cd80.gif",
+    "static/media/WaveBG.gif": "/design-portfolio/static/media/WaveBG.8aa213f5f0aee09e7299.gif",
+    "static/media/NewProfilePic.gif": "/design-portfolio/static/media/NewProfilePic.a9a6007e29c5a4c22eeb.gif",
     "static/media/shopping-cart.png": "/design-portfolio/static/media/shopping-cart.941e2a3409e5380f97e3.png",
     "static/media/weather-app.png": "/design-portfolio/static/media/weather-app.50326de0be92147f4092.png",
     "static/media/sign-up-form.png": "/design-portfolio/static/media/sign-up-form.ad5b073b227ca61293df.png",
-    "static/media/Waves Dark Green.webm": "/design-portfolio/static/media/Waves Dark Green.24fec0b7678705a4fd2d.webm",
     "static/media/pacific rim.PNG": "/design-portfolio/static/media/pacific rim.0e7bce45442e6e7d900b.PNG",
     "static/media/maninthehighcastle.PNG": "/design-portfolio/static/media/maninthehighcastle.11a50d0aa7b5461f052b.PNG",
     "static/media/Slide06.PNG": "/design-portfolio/static/media/Slide06.b1af0aab6f0b39103f23.PNG",
@@ -41,17 +42,16 @@
     "static/media/kingsman.PNG": "/design-portfolio/static/media/kingsman.1892d09e7e5c7e348a14.PNG",
     "static/media/Slide20.PNG": "/design-portfolio/static/media/Slide20.0397a2749765b26a82e6.PNG",
     "static/media/Slide17.PNG": "/design-portfolio/static/media/Slide17.8914b98130def590a52a.PNG",
-    "static/media/Waves Lighter 2.webm": "/design-portfolio/static/media/Waves Lighter 2.fe30c20758845df35977.webm",
     "static/media/Slide11.PNG": "/design-portfolio/static/media/Slide11.44ee0b962bdebc608c6d.PNG",
     "static/media/Slide19.PNG": "/design-portfolio/static/media/Slide19.6135655b30f8630b3022.PNG",
     "static/media/good omens v1-01.png": "/design-portfolio/static/media/good omens v1-01.13659c03487432300a0c.png",
     "static/media/shazam v6-01.png": "/design-portfolio/static/media/shazam v6-01.a2b4e4316cecae40d3df.png",
     "index.html": "/design-portfolio/index.html",
-    "main.441c6b93.css.map": "/design-portfolio/static/css/main.441c6b93.css.map",
-    "main.c35a321c.js.map": "/design-portfolio/static/js/main.c35a321c.js.map"
+    "main.c3324c28.css.map": "/design-portfolio/static/css/main.c3324c28.css.map",
+    "main.5ef7e28e.js.map": "/design-portfolio/static/js/main.5ef7e28e.js.map"
   },
   "entrypoints": [
-    "static/css/main.441c6b93.css",
-    "static/js/main.c35a321c.js"
+    "static/css/main.c3324c28.css",
+    "static/js/main.5ef7e28e.js"
   ]
 }
