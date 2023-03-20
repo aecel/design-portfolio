@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.c3324c28.css",
+    "main.css": "/design-portfolio/static/css/main.8aadd117.css",
     "main.js": "/design-portfolio/static/js/main.5ef7e28e.js",
     "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
     "static/media/WaveBGFlipped.gif": "/design-portfolio/static/media/WaveBGFlipped.d07b55e438ba8f53cd80.gif",
@@ -47,11 +47,11 @@
     "static/media/good omens v1-01.png": "/design-portfolio/static/media/good omens v1-01.13659c03487432300a0c.png",
     "static/media/shazam v6-01.png": "/design-portfolio/static/media/shazam v6-01.a2b4e4316cecae40d3df.png",
     "index.html": "/design-portfolio/index.html",
-    "main.c3324c28.css.map": "/design-portfolio/static/css/main.c3324c28.css.map",
+    "main.8aadd117.css.map": "/design-portfolio/static/css/main.8aadd117.css.map",
     "main.5ef7e28e.js.map": "/design-portfolio/static/js/main.5ef7e28e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3324c28.css",
+    "static/css/main.8aadd117.css",
     "static/js/main.5ef7e28e.js"
   ]
 }
