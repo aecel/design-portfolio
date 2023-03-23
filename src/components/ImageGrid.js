@@ -1,6 +1,7 @@
 import "photoswipe/dist/photoswipe.css"
 import { useEffect, useRef } from "react"
-import { Gallery, Item } from "react-photoswipe-gallery"
+import { Gallery } from "react-photoswipe-gallery"
+import ImageItem from "./ImageItem"
 import SpacingForHeader from "./SpacingForHeader"
 
 const ImageGrid = ({
@@ -29,27 +30,6 @@ const ImageGrid = ({
       trigger2.removeEventListener("click", scroll)
     }
   }, [triggerRef, triggerRef2])
-
-  const ImageItem = ({ image }) => {
-    return (
-      <Item
-        original={image.src}
-        thumbnail={image.src}
-        width={image.width}
-        height={image.height}
-      >
-        {({ ref, open }) => (
-          <img
-            className={imageClasses ? `${imageClasses}` : "grid-image"}
-            ref={ref}
-            onClick={open}
-            src={image.src}
-            alt={image.name}
-          />
-        )}
-      </Item>
-    )
-  }
 
   return (
     <section ref={sectionRef} id={id} className="main-with-margin flex-center">
@@ -87,7 +67,13 @@ const ImageGrid = ({
             }}
           >
             {imagesArray.map((image) => {
-              return <ImageItem image={image} key={image.name} />
+              return (
+                <ImageItem
+                  image={image}
+                  key={image.name}
+                  imageClasses={imageClasses}
+                />
+              )
             })}
           </div>
         </Gallery>
