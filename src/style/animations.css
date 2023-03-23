@@ -8,6 +8,7 @@ button:hover {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
+  z-index: 2;
 }
 
 @keyframes enlarge {
@@ -32,6 +33,7 @@ button {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
+  /* z-index: 2; */
 }
 
 @keyframes backToNormal {
