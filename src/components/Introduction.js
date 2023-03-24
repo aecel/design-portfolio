@@ -40,10 +40,6 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
           style={{
             width: "300px",
             height: "auto",
-            // border: "white 2px dashed",
-            // borderRadius: "50%",
-            // objectPosition: "top",
-            // objectFit: "contain",
           }}
         />
         <h1>Hi, I'm Aecel</h1>
