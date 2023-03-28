@@ -3,9 +3,11 @@ import ContactMe from "./ContactMe"
 import Footer from "./Footer"
 import Introduction from "./Introduction"
 import SampleWorks from "./SampleWorks"
+import SoftwareIUse from "./SoftwareIUse"
 
 const Main = () => {
   const aboutMeRef = useRef()
+  const softwareRef = useRef()
   const presentationRef = useRef()
   const beforeAfterRef = useRef()
   const illustrationsRef = useRef()
@@ -13,6 +15,7 @@ const Main = () => {
   const contactMeRef = useRef()
 
   const aboutMeHamburgerRef = useRef()
+  const softwareHamburgerRef = useRef()
   const presentationHamburgerRef = useRef()
   const beforeAfterHamburgerRef = useRef()
   const illustrationsHamburgerRef = useRef()
@@ -35,6 +38,9 @@ const Main = () => {
         <div className="header-elements">
           <button className="header-button" ref={aboutMeRef}>
             About Me
+          </button>
+          <button className="header-button" ref={softwareRef}>
+            Software I Use
           </button>
           <button className="header-button" ref={presentationRef}>
             Presentations
@@ -64,6 +70,13 @@ const Main = () => {
             onClick={toggleHamburgerMenu}
           >
             About Me
+          </button>
+          <button
+            className="hamburger-item"
+            ref={softwareHamburgerRef}
+            onClick={toggleHamburgerMenu}
+          >
+            Software I Use
           </button>
           <button
             className="hamburger-item"
@@ -107,6 +120,10 @@ const Main = () => {
           triggerRef={aboutMeRef}
           triggerRef2={aboutMeHamburgerRef}
         />
+        <SoftwareIUse
+          triggerRef={softwareRef}
+          triggerRef2={softwareHamburgerRef}
+        />
         <SampleWorks
           presentationRef={presentationRef}
           beforeAfterRef={beforeAfterRef}
@@ -117,6 +134,7 @@ const Main = () => {
           illustrationsRef2={illustrationsHamburgerRef}
           webDesignRef2={webDesignHamburgerRef}
         />
+
         <ContactMe
           triggerRef={contactMeRef}
           triggerRef2={contactMeHamburgerRef}
