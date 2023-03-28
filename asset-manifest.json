@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.8aadd117.css",
-    "main.js": "/design-portfolio/static/js/main.5ef7e28e.js",
+    "main.css": "/design-portfolio/static/css/main.b28776a8.css",
+    "main.js": "/design-portfolio/static/js/main.ed42921b.js",
     "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
     "static/media/WaveBGFlipped.gif": "/design-portfolio/static/media/WaveBGFlipped.d07b55e438ba8f53cd80.gif",
     "static/media/WaveBG.gif": "/design-portfolio/static/media/WaveBG.8aa213f5f0aee09e7299.gif",
@@ -32,11 +32,14 @@
     "static/media/good omens v3-01.png": "/design-portfolio/static/media/good omens v3-01.a98968fbcd641cd5274f.png",
     "static/media/007.png": "/design-portfolio/static/media/007.581ea7e74b8d1013b6fd.png",
     "static/media/Slide09.PNG": "/design-portfolio/static/media/Slide09.6f88347f877ae0149fba.PNG",
+    "static/media/Cavalry.png": "/design-portfolio/static/media/Cavalry.6131dfd46f8d88f3c3b8.png",
+    "static/media/Vectornator.png": "/design-portfolio/static/media/Vectornator.d63ec4411ea9c2ffd2ea.png",
     "static/media/Slide08.PNG": "/design-portfolio/static/media/Slide08.8134150a3ae4a35ac9a5.PNG",
     "static/media/take your time.png": "/design-portfolio/static/media/take your time.19158fe689e44dfd1983.png",
     "static/media/mortal engines.PNG": "/design-portfolio/static/media/mortal engines.0777471eefe9e45054da.PNG",
     "static/media/dashboard.png": "/design-portfolio/static/media/dashboard.28b553dd0b060c8e81ee.png",
     "static/media/downsizing.PNG": "/design-portfolio/static/media/downsizing.648ec409e9e7b01c8104.PNG",
+    "static/media/Procreate.png": "/design-portfolio/static/media/Procreate.26bd18d7792100365a70.png",
     "static/media/Slide18.PNG": "/design-portfolio/static/media/Slide18.1b9abed9d8d80eba0a2e.PNG",
     "static/media/Slide16.PNG": "/design-portfolio/static/media/Slide16.e12f06aaa272e5916e79.PNG",
     "static/media/kingsman.PNG": "/design-portfolio/static/media/kingsman.1892d09e7e5c7e348a14.PNG",
@@ -44,14 +47,26 @@
     "static/media/Slide17.PNG": "/design-portfolio/static/media/Slide17.8914b98130def590a52a.PNG",
     "static/media/Slide11.PNG": "/design-portfolio/static/media/Slide11.44ee0b962bdebc608c6d.PNG",
     "static/media/Slide19.PNG": "/design-portfolio/static/media/Slide19.6135655b30f8630b3022.PNG",
+    "static/media/Callipeg.png": "/design-portfolio/static/media/Callipeg.f212f209b7a7429e9eb3.png",
     "static/media/good omens v1-01.png": "/design-portfolio/static/media/good omens v1-01.13659c03487432300a0c.png",
     "static/media/shazam v6-01.png": "/design-portfolio/static/media/shazam v6-01.a2b4e4316cecae40d3df.png",
+    "static/media/React.svg": "/design-portfolio/static/media/React.1495a6a0c751ac52af31.svg",
+    "static/media/Adobe Photoshop.svg": "/design-portfolio/static/media/Adobe Photoshop.a0e7f565a7116631ff39.svg",
+    "static/media/Adobe After Effects.svg": "/design-portfolio/static/media/Adobe After Effects.8a8179fcee96fcddb56c.svg",
+    "static/media/Microsoft Powerpoint.svg": "/design-portfolio/static/media/Microsoft Powerpoint.316b243d8ce3d8bc0d1a.svg",
+    "static/media/Inkscape.svg": "/design-portfolio/static/media/Inkscape.8990b1d80bcd6a68856b.svg",
+    "static/media/Adobe Illustrator.svg": "/design-portfolio/static/media/Adobe Illustrator.6123b96c84b05bb0d517.svg",
+    "static/media/Javascript.svg": "/design-portfolio/static/media/Javascript.75fa9cdf8b00c1ddc571.svg",
+    "static/media/Adobe InDesign.svg": "/design-portfolio/static/media/Adobe InDesign.c677ad231026452d5d76.svg",
     "index.html": "/design-portfolio/index.html",
-    "main.8aadd117.css.map": "/design-portfolio/static/css/main.8aadd117.css.map",
-    "main.5ef7e28e.js.map": "/design-portfolio/static/js/main.5ef7e28e.js.map"
+    "static/media/Visual Studio Code.svg": "/design-portfolio/static/media/Visual Studio Code.dc493010b0221541533e.svg",
+    "static/media/CSS.svg": "/design-portfolio/static/media/CSS.98daf49e4be2b88d6c17.svg",
+    "static/media/HTML.svg": "/design-portfolio/static/media/HTML.74577817dde8fee285d3.svg",
+    "main.b28776a8.css.map": "/design-portfolio/static/css/main.b28776a8.css.map",
+    "main.ed42921b.js.map": "/design-portfolio/static/js/main.ed42921b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aadd117.css",
-    "static/js/main.5ef7e28e.js"
+    "static/css/main.b28776a8.css",
+    "static/js/main.ed42921b.js"
   ]
 }
