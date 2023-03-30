@@ -114,6 +114,7 @@ const Main = () => {
             Contact Me
           </button>
         </div>
+        <button id="theme-toggle">x</button>
       </header>
       <main>
         <Introduction

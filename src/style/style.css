@@ -84,7 +84,7 @@ footer {
 }
 
 .emphasize-text {
-  color: var(--color-theme);
+  color: var(--color-theme-light);
   /* font-weight: bold; */
   font-style: normal;
 }
@@ -147,6 +147,17 @@ footer {
 
 .hamburger-item:hover {
   background-color: gray;
+}
+
+#theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: lightblue;
+  margin-left: 20px;
 }
 
 /* Main component */
@@ -404,7 +415,8 @@ button:active {
   }
 }
 
-@media (max-width: 700px) {
+/* Where header transforms from tabs to hamburger menu */
+@media (max-width: 940px) {
   .header-elements {
     display: none;
   }
