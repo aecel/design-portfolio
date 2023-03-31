@@ -52,7 +52,7 @@ const SampleWorks = ({
         id="WebDesign"
         title="Web Design"
         imagesArray={webDesignImages}
-        imageClasses="grid-image-webdesign"
+        imageClasses="grid-image grid-image-webdesign"
       />
     </div>
   )

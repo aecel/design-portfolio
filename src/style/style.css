@@ -19,6 +19,11 @@
   scrollbar-width: thin;
 }
 
+/* Portfolio sample images are darkened a bit when in dark mode */
+.grid-image {
+  filter: brightness(0.8) contrast(1.2);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -75,8 +80,8 @@ header {
   justify-content: center;
   position: fixed;
   z-index: 3;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
 }
 
 footer {
@@ -149,14 +154,14 @@ footer {
   background-color: gray;
 }
 
-#theme-toggle {
+button#theme-toggle {
   display: flex;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
   border-radius: 5px;
   height: 30px;
   width: 30px;
-  background-color: lightblue;
+  background-color: transparent;
   margin-left: 20px;
 }
 
