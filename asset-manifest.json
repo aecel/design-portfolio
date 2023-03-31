@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.b28776a8.css",
-    "main.js": "/design-portfolio/static/js/main.ed42921b.js",
+    "main.css": "/design-portfolio/static/css/main.0c0cfaff.css",
+    "main.js": "/design-portfolio/static/js/main.8be338dc.js",
     "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
     "static/media/WaveBGFlipped.gif": "/design-portfolio/static/media/WaveBGFlipped.d07b55e438ba8f53cd80.gif",
     "static/media/WaveBG.gif": "/design-portfolio/static/media/WaveBG.8aa213f5f0aee09e7299.gif",
@@ -62,11 +62,11 @@
     "static/media/Visual Studio Code.svg": "/design-portfolio/static/media/Visual Studio Code.dc493010b0221541533e.svg",
     "static/media/CSS.svg": "/design-portfolio/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/design-portfolio/static/media/HTML.74577817dde8fee285d3.svg",
-    "main.b28776a8.css.map": "/design-portfolio/static/css/main.b28776a8.css.map",
-    "main.ed42921b.js.map": "/design-portfolio/static/js/main.ed42921b.js.map"
+    "main.0c0cfaff.css.map": "/design-portfolio/static/css/main.0c0cfaff.css.map",
+    "main.8be338dc.js.map": "/design-portfolio/static/js/main.8be338dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b28776a8.css",
-    "static/js/main.ed42921b.js"
+    "static/css/main.0c0cfaff.css",
+    "static/js/main.8be338dc.js"
   ]
 }
