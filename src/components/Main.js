@@ -2,6 +2,7 @@ import { useRef } from "react"
 import ContactMe from "./ContactMe"
 import Footer from "./Footer"
 import Introduction from "./Introduction"
+import MoreAboutMe from "./MoreAboutMe"
 import SampleWorks from "./SampleWorks"
 import SoftwareIUse from "./SoftwareIUse"
 
@@ -121,6 +122,7 @@ const Main = () => {
           triggerRef={aboutMeRef}
           triggerRef2={aboutMeHamburgerRef}
         />
+        <MoreAboutMe />
         <SoftwareIUse
           triggerRef={softwareRef}
           triggerRef2={softwareHamburgerRef}
