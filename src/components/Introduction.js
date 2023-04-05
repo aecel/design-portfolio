@@ -34,14 +34,14 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
           zIndex: "1",
         }}
       >
-        <img
+        {/* <img
           src={introductionGif}
           alt=""
           style={{
             width: "300px",
             height: "auto",
           }}
-        />
+        /> */}
         <h1>Hi, I'm Aecel</h1>
         <div
           style={{

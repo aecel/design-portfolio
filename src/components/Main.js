@@ -46,7 +46,13 @@ const Main = () => {
           <button className="header-button" ref={presentationRef}>
             Presentations
           </button>
-          <button className="header-button" ref={beforeAfterRef}>
+          <button
+            className="header-button"
+            ref={beforeAfterRef}
+            style={{
+              display: "none",
+            }}
+          >
             More Presentations
           </button>
           <button className="header-button" ref={illustrationsRef}>
@@ -90,6 +96,9 @@ const Main = () => {
             className="hamburger-item"
             ref={beforeAfterHamburgerRef}
             onClick={toggleHamburgerMenu}
+            style={{
+              display: "none",
+            }}
           >
             More Presentations
           </button>
@@ -115,7 +124,7 @@ const Main = () => {
             Contact Me
           </button>
         </div>
-        <button id="theme-toggle"></button>
+        {/* <button id="theme-toggle"></button> */}
       </header>
       <main>
         <Introduction

@@ -28,7 +28,6 @@ const getSoftwareIUse = () => {
     })
   }
 
-  console.log(imagesArray)
   return imagesArray
 }
 

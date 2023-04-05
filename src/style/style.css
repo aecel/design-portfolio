@@ -13,16 +13,16 @@
   --color-theme: rgb(207, 114, 156);
   --color-theme-light: rgb(144, 230, 204);
   --color-theme-light: rgb(238, 149, 189);
-  color: white;
+  color: #252525;
   font-size: 1rem;
   box-sizing: border-box;
   scrollbar-width: thin;
 }
 
 /* Portfolio sample images are darkened a bit when in dark mode */
-.grid-image {
+/* .grid-image {
   filter: brightness(0.8) contrast(1.2);
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -30,7 +30,7 @@ html {
 
 html,
 body {
-  background-color: var(--gray);
+  background-color: #e6e6e6;
   padding: 0;
   margin: 0;
   height: 100%;
@@ -73,10 +73,11 @@ footer {
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  color: #e6e6e6;
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.74);
+  background-color: #252525;
   justify-content: center;
   position: fixed;
   z-index: 3;
@@ -89,7 +90,7 @@ footer {
 }
 
 .emphasize-text {
-  color: var(--color-theme-light);
+  color: var(--color-theme);
   /* font-weight: bold; */
   font-style: normal;
 }
@@ -112,7 +113,7 @@ footer {
   align-items: center;
   background-color: transparent;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 #hamburger-menu {
@@ -237,7 +238,7 @@ button:active {
 
 /* Introduction component */
 
-#Introduction {
+/* #Introduction {
   background-image: url(../images/WaveBG.gif);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -249,7 +250,7 @@ button:active {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 #Introduction,
 #ContactMe {
@@ -257,14 +258,14 @@ button:active {
 }
 
 #Introduction {
-  height: 600px;
-  padding-bottom: 200px;
+  height: 700px;
+  /* padding-bottom: 200px; */
 }
 
 #ContactMe {
   /* overflow: clip; */
-  padding-top: 250px;
-  height: 400px;
+  /* padding-top: 250px; */
+  height: 600px;
   margin-top: 60px;
 }
 
@@ -287,10 +288,11 @@ button:active {
 /* Image Grid component */
 
 .grid-title {
-  background-color: rgb(22, 22, 22);
+  background-color: #252525;
+  color: #e6e6e6;
   padding: 15px 25px 15px 25px;
   margin-bottom: 30px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   min-width: 250px;
   text-align: center;
   box-sizing: border-box;
@@ -302,6 +304,7 @@ button:active {
   cursor: pointer;
   object-fit: cover;
   border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.418);
 }
 
 .grid-image-webdesign {
