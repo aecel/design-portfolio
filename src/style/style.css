@@ -293,6 +293,8 @@ button:active {
   padding: 15px 25px 15px 25px;
   margin-bottom: 30px;
   /* border-radius: 10px; */
+  line-height: 1;
+  font-size: 1.8rem;
   min-width: 250px;
   text-align: center;
   box-sizing: border-box;
@@ -318,6 +320,7 @@ button:active {
 /* ContactMe component */
 
 #HireMeButton {
+  font-size: 1.7rem;
   text-decoration: none;
   color: white;
   font-weight: bold;

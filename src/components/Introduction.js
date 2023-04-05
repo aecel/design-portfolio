@@ -42,7 +42,7 @@ const Introduction = ({ triggerRef, triggerRef2 }) => {
             height: "auto",
           }}
         /> */}
-        <h1>Hi, I'm Aecel</h1>
+        <h1 className="grid-title">Hi, I'm Aecel</h1>
         <div
           style={{
             lineHeight: "2",
