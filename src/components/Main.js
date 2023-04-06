@@ -1,4 +1,5 @@
 import { useRef } from "react"
+// import CollidingCircles from "./CollidingCircles"
 import ContactMe from "./ContactMe"
 import Footer from "./Footer"
 import Introduction from "./Introduction"
@@ -65,7 +66,7 @@ const Main = () => {
             Contact Me
           </button>
         </div>
-        <button id="hamburger-menu" onClick={toggleHamburgerMenu}>
+        <button id="hamburger-menu-button" onClick={toggleHamburgerMenu}>
           <div className="hamburger-line"></div>
           <div className="hamburger-line"></div>
           <div className="hamburger-line"></div>
@@ -127,6 +128,8 @@ const Main = () => {
         {/* <button id="theme-toggle"></button> */}
       </header>
       <main>
+        {/* <Circles /> */}
+        {/* <CollidingCircles /> */}
         <Introduction
           triggerRef={aboutMeRef}
           triggerRef2={aboutMeHamburgerRef}

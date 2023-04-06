@@ -51,7 +51,7 @@ const ImageGrid = ({
             textAlign: "center",
             lineHeight: "2",
             marginBottom: "20px",
-            color: "gray",
+            color: "rgb(49, 49, 49)",
           }}
         >
           Click to enlarge and go to slideshow mode
