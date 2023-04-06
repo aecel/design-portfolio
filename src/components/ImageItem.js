@@ -4,7 +4,7 @@ const ImageItem = ({ image, imageClasses }) => {
   return (
     <Item
       original={image.src}
-      thumbnail={image.src}
+      thumbnail={image.thumbnail ? image.thumbnail : image.src}
       width={image.width}
       height={image.height}
     >

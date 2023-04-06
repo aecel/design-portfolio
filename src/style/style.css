@@ -352,7 +352,8 @@ button:active {
   cursor: pointer;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.418);
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+  /* filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.25)); */
 }
 
 .grid-image-webdesign {

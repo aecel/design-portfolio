@@ -5,7 +5,7 @@ const getSoftwareIUse = () => {
   }
 
   const logoImages = importAll(
-    require.context("./images/logos", false, /\.(PNG|png|jpe?g|svg)$/)
+    require.context("./images/logos", false, /\.(PNG|png|jpe?g|svg|webp)$/)
   )
 
   // Sample pattern of each image in logoImages
@@ -20,7 +20,7 @@ const getSoftwareIUse = () => {
   })
 
   let imagesArray = []
- 
+
   for (const image of logoImages) {
     imagesArray.push({
       src: image,
