@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.f65b77f9.css",
-    "main.js": "/design-portfolio/static/js/main.a83ee693.js",
+    "main.css": "/design-portfolio/static/css/main.9a01110e.css",
+    "main.js": "/design-portfolio/static/js/main.ab4f16ce.js",
     "static/media/restaurant.png": "/design-portfolio/static/media/restaurant.13a162fd661d5b390bd3.png",
     "static/media/NewProfilePic.gif": "/design-portfolio/static/media/NewProfilePic.a9a6007e29c5a4c22eeb.gif",
     "static/media/shopping-cart.png": "/design-portfolio/static/media/shopping-cart.941e2a3409e5380f97e3.png",
@@ -60,11 +60,11 @@
     "static/media/Visual Studio Code.svg": "/design-portfolio/static/media/Visual Studio Code.dc493010b0221541533e.svg",
     "static/media/CSS.svg": "/design-portfolio/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/design-portfolio/static/media/HTML.74577817dde8fee285d3.svg",
-    "main.f65b77f9.css.map": "/design-portfolio/static/css/main.f65b77f9.css.map",
-    "main.a83ee693.js.map": "/design-portfolio/static/js/main.a83ee693.js.map"
+    "main.9a01110e.css.map": "/design-portfolio/static/css/main.9a01110e.css.map",
+    "main.ab4f16ce.js.map": "/design-portfolio/static/js/main.ab4f16ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.f65b77f9.css",
-    "static/js/main.a83ee693.js"
+    "static/css/main.9a01110e.css",
+    "static/js/main.ab4f16ce.js"
   ]
 }
