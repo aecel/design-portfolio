@@ -66,7 +66,11 @@ const Main = () => {
             Contact Me
           </button>
         </div>
-        <button id="hamburger-menu-button" onClick={toggleHamburgerMenu}>
+        <button
+          id="hamburger-menu-button"
+          aria-label="Hamburger Menu Button"
+          onClick={toggleHamburgerMenu}
+        >
           <div className="hamburger-line"></div>
           <div className="hamburger-line"></div>
           <div className="hamburger-line"></div>
