@@ -1,6 +1,4 @@
 import { useEffect, useRef } from "react"
-import introductionGif from "../images/NewProfilePic.gif"
-import Circle from "./CollidingCircles"
 import SpacingForHeader from "./SpacingForHeader"
 const yearNow = new Date().getFullYear()
 const numOfYears = yearNow - 2017
