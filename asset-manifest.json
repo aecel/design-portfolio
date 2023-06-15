@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.e7e2f7c6.css",
-    "main.js": "/design-portfolio/static/js/main.1419c846.js",
+    "main.css": "/design-portfolio/static/css/main.fffb0828.css",
+    "main.js": "/design-portfolio/static/js/main.fc8bd68f.js",
     "static/media/restaurant.webp": "/design-portfolio/static/media/restaurant.8e673b08a58957b4441d.webp",
     "static/media/shazam v10-01.webp": "/design-portfolio/static/media/shazam v10-01.735861365201fb6589ef.webp",
     "static/media/shopping-cart.webp": "/design-portfolio/static/media/shopping-cart.1a526d537873834ee39f.webp",
@@ -60,11 +60,11 @@
     "static/media/Visual Studio Code.svg": "/design-portfolio/static/media/Visual Studio Code.dc493010b0221541533e.svg",
     "static/media/CSS.svg": "/design-portfolio/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/design-portfolio/static/media/HTML.74577817dde8fee285d3.svg",
-    "main.e7e2f7c6.css.map": "/design-portfolio/static/css/main.e7e2f7c6.css.map",
-    "main.1419c846.js.map": "/design-portfolio/static/js/main.1419c846.js.map"
+    "main.fffb0828.css.map": "/design-portfolio/static/css/main.fffb0828.css.map",
+    "main.fc8bd68f.js.map": "/design-portfolio/static/js/main.fc8bd68f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7e2f7c6.css",
-    "static/js/main.1419c846.js"
+    "static/css/main.fffb0828.css",
+    "static/js/main.fc8bd68f.js"
   ]
 }
