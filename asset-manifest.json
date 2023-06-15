@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/design-portfolio/static/css/main.e7e2f7c6.css",
-    "main.js": "/design-portfolio/static/js/main.c527224c.js",
-    "static/media/NewProfilePic.gif": "/design-portfolio/static/media/NewProfilePic.a9a6007e29c5a4c22eeb.gif",
+    "main.js": "/design-portfolio/static/js/main.1419c846.js",
     "static/media/restaurant.webp": "/design-portfolio/static/media/restaurant.8e673b08a58957b4441d.webp",
     "static/media/shazam v10-01.webp": "/design-portfolio/static/media/shazam v10-01.735861365201fb6589ef.webp",
     "static/media/shopping-cart.webp": "/design-portfolio/static/media/shopping-cart.1a526d537873834ee39f.webp",
@@ -62,10 +61,10 @@
     "static/media/CSS.svg": "/design-portfolio/static/media/CSS.98daf49e4be2b88d6c17.svg",
     "static/media/HTML.svg": "/design-portfolio/static/media/HTML.74577817dde8fee285d3.svg",
     "main.e7e2f7c6.css.map": "/design-portfolio/static/css/main.e7e2f7c6.css.map",
-    "main.c527224c.js.map": "/design-portfolio/static/js/main.c527224c.js.map"
+    "main.1419c846.js.map": "/design-portfolio/static/js/main.1419c846.js.map"
   },
   "entrypoints": [
     "static/css/main.e7e2f7c6.css",
-    "static/js/main.c527224c.js"
+    "static/js/main.1419c846.js"
   ]
 }
